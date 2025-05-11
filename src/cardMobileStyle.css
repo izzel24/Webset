@@ -1,0 +1,56 @@
+:root {
+	--cards: 3;
+	--cardHeight: 87vh;
+	--cardTopPadding: 1.5em;
+	--cardMargin: 1vw;
+}
+
+.containerd {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#cards1 {
+	list-style: none;
+	padding-left: 0;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(var(--cards), var(--cardHeight));
+	gap: var(--cardMargin);
+	padding-bottom: calc(var(--cards) * var(--cardTopPadding));
+	margin-bottom: var(--cardMargin);
+}
+
+#card1 {
+	--index: 1;
+}
+#card2 {
+	--index: 2;
+}
+#card3 {
+	--index: 3;
+}
+
+
+.card1 {
+	position: sticky;
+	top: 0;
+	justify-items: center;
+	align-items: center;
+	padding-top: calc(var(--index) * var(--cardTopPadding));
+	display: flex;
+    justify-content: center;
+	gap: 1rem;
+}
+
+
+.card-body1 {
+	box-sizing: border-box;
+	border-radius: 20px;
+	box-shadow: 0 0 30px 0 rgba(0,0,0,0.3);
+	height: var(--cardHeight);
+	max-height: 450px;
+	width: 70%;
+	display: flex;
+	transition: all 0.5s;
+}
