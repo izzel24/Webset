@@ -10,11 +10,11 @@ import spotify from '../assets/spotify icon.svg'
 
 export default function Footer() {
   return (
-    <div className='h-[260px] sm:p-8 p-2 m-0 relative bg-[#1E1D1D] grid sm:grid-cols-3 grid-cols-2  items-end  sm:justify-items-center'>
+    <div className='min-h-[260px] sm:p-8 p-2 m-0 relative bg-[#1E1D1D] grid sm:grid-cols-3 grid-cols-1  items-end  sm:justify-items-center'>
         
-      <div className='sm: max-w-[350px] flex flex-col items-center sm:items-start gap-2'>
-        <h1 className='font-Bricolage font-bold text-white sm:text-2xl text-md'>ALAMAT</h1>
-        <p className='font-Bricolage font-light text-white sm:text-sm text-xs sm:text-start text-center'>Gedung Krida Mahasiswa Fakultas Ilmu Administrasi Lt 1 Jalan. MT Haryono No. 163, Ketawanggede, Kec. Lowokwaru, Kota Malang</p>
+      <div className='sm: max-w-[350px] flex flex-col items-center sm:items-start gap-2 sm:col-span-1 col-span-2 mt-auto'>
+        <h1 className='font-Bricolage font-bold text-white sm:text-2xl text-md '>ALAMAT</h1>
+        <p className='font-Bricolage font-light text-white sm:text-sm text-xs sm:text-start text-start'>Gedung Krida Mahasiswa Fakultas Ilmu Administrasi Lt 1 Jalan. MT Haryono No. 163, Ketawanggede, Kec. Lowokwaru, Kota Malang</p>
       </div>
       <div className='sm:max-w-[350px]  flex flex-col items-center sm:items-start gap-2'>
         <h1 className='font-Bricolage font-bold text-white sm:text-2xl text-md'>NARAHUBUNG</h1>

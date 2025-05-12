@@ -15,7 +15,7 @@ import ServicePage from '../pages/ServicePage'
 
 export default function AppRoutes() {
   return (
-    <BrowserRouter>
+
         <Routes>
             <Route path='/' element={<HomePage />}/>
             <Route  element={<AboutPage />} >
@@ -28,6 +28,5 @@ export default function AppRoutes() {
             <Route path='/card' element={<ScrollGallery />}/>
             <Route path='/service' element={<ServicePage />}/>
         </Routes>
-    </BrowserRouter>
   )
 }

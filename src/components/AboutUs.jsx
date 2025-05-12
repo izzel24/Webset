@@ -57,7 +57,7 @@ export default function AboutUs() {
                     <span className='font-Britania text-[#98A869] md:text-7xl text-xl max-w-[800px] relative z-99' >“CIA-CIO” Collaboration, Integration, Adaptation, Catalyst, Inclusive, Optimation</span>
                 </div>
                
-                <img src={line} alt="" className='w-full absolute top-0 z-10 md:flex hidden' />
+                <img src={line} alt="" className='w-full absolute top-0 z-10 md:flex ' />
 
                 <div className='flex flex-col gap-5 mt-20 md:p-10 p-7 items-end w-full relative z-99'>
                     <img src={title3} alt="" className='w-[450px]'/>

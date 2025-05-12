@@ -53,3 +53,19 @@
     width: 90px;
 }
 }
+
+@media (max-width: 600px) {
+  .slide-track {
+    width: calc(90px * 18);
+    animation: scroll-mobile 20s linear infinite;
+  }
+
+  @keyframes scroll-mobile {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-90px * 9));
+    }
+  }
+}

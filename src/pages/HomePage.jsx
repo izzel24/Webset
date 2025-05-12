@@ -169,15 +169,15 @@ export default function HomePage() {
           
       </div>
  
-      <div className="min-h-screen relative w-full ">
+      <div className="min-h-screen relative w-full">
         <div className="w-full bg-[#FEFEFE] flex items-center border-t-[3.5px] border-b-[3.5px]">
             <LogoMarquee />
         </div>
 
           <Service title="Service" subtitle1="Integrated System Advo" subtitle2="Ruang Aman" />
          
-          <div className="w-full flex justify-center sm:items-center items-center ">
-            <svg  viewBox="0 0 135 336" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute z-50 sm:width-[130px] sm:height-[300px] w-20 h-56">
+          <div className="w-full flex justify-center sm:items-center ">
+            <svg  viewBox="0 0 135 336" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute z-50 sm:w-[130px] sm:h-[250px]  h-36  ">
               <g filter="url(#filter0_d_259_50)">
               <rect x="27" y="68" width="4" height="189" fill="#98A869"/>
               <rect x="99" y="68" width="4" height="189" fill="#98A869"/>
@@ -207,9 +207,13 @@ export default function HomePage() {
            
          
       </div>
-      <svg height="399" viewBox="0 0 1920 399" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full absolute sm:bottom-[100px] bottom-[95px]">
-            <path d="M1920 399H0V0C0.00146804 134.058 429.808 242.733 960 242.733C1490.19 242.733 1920 134.058 1920 0V399Z" fill="#1E1D1D"/>
-            </svg>
+      <div className="">
+
+        <svg height="399" viewBox="0 0 1920 399" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full absolute sm:bottom-[100px] bottom-[95px]">
+          <path d="M1920 399H0V0C0.00146804 134.058 429.808 242.733 960 242.733C1490.19 242.733 1920 134.058 1920 0V399Z" fill="#1E1D1D"/>
+        </svg>
+      </div>
+           
       <Footer />
       
     </div>
