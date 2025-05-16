@@ -13,17 +13,15 @@ import "swiper/css/pagination";
 import Sliders from "../components/Sliders";
 import LogoMarquee from "../components/LogoMarquee";
 import Service from "../components/Service";
-import Cards from "../components/Cards";
 import Footer from "../components/Footer";
 import CardsPortrait from "../components/CardsPortrait";
+import Navbar from "../components/Navbar";
+import star from "../assets/Group 19.svg";
+import plane from "../assets/plane.svg"
 
-// import ImageSlider from "../components/ImageSlider";
-// import  image1  from "../assets/andre-reis-1_DAlXy0wng-unsplash.jpg";
-// import  image2  from "../assets/federico-tonini-tdDPj4Jpwu4-unsplash.jpg";
 
 export default function HomePage() {
 
-  // const image = [image1, image2]
 
 
     const [isLandscape, setIsLandscape] = useState(window.matchMedia("(orientation: landscape)").matches);
@@ -41,11 +39,16 @@ export default function HomePage() {
 
 
   return (
-    <div className="relative min-w-[300px]">
+    <div className="relative min-w-[330px]">
+      <Navbar open={false}/>
       <img src={pinkLine} alt="" className="absolute top-0 left-0 w-full z-1" />
       <div className="relative h-screen bg-[#334075] flex flex-col justify-center items-center min-w-[300px]">
+        <img src={star} className="absolute z-1 left-10 top-10 md:w-[130px] w-[100px]"/>
+        <img src={star} className="absolute z-1 bottom-10 md:w-[100px] w-[70px] right-[50%] "/>
+        <img src={star} className="absolute z-1 bottom-52 right-16 md:w-[80px] w-[50px] "/>
+        <img src={plane} className="absolute z-1 bottom-10 right-10 md:w-[80px] w-[50px]"/>
         <div className="flex flex-col justify-center items-center w-full">
-          <div className="w-full flex justify-center gap-2 ">
+          <div className=" relative w-full flex justify-center gap-2 ">
             <span className="font-Bricolage lg:text-8xl md:text-5xl text-2xl text-white z-99 text-center">
               Welcome to <span className="font-extrabold">BEM FIA UB 2025</span>
             </span>
@@ -59,69 +62,35 @@ export default function HomePage() {
         </div>
       </div>
       <div className="min-h-screen relative flex items-center flex-col justify-center gap-10">
-        <span className="lg:text-9xl md:text-7xl text-5xl z-999  font-Bricolage text-center font-extrabold lg:text-stroke-3 text-stroke-2  text-[#334075]">
-          Program Kerja{" "}
-          <span className="lg:text-8xl md:text-6xl text-4xl">Unggulan</span>
-        </span>
+
+         <svg width="100%" height="160" className="relative z-99">
+            <defs>
+              <filter id="dropshadow">
+                <feDropShadow dx="2" dy="2.5" stdDeviation="0" flood-color="black" flood-opacity="1" />
+              </filter>
+            </defs>
+
+            <text
+              x="50%"
+              y="50%"
+              dominantBaseline="middle"
+              className="font-Bricolage"
+              stroke="black"
+              strokeWidth="4"
+              fill="#334075"
+              textAnchor='middle'
+              paintOrder="stroke"
+              filter="url(#dropshadow)"
+              >
+                <tspan className="font-extrabold text-4xl sm:text-6xl lg:text-8xl md:text-7xl">Program Kerja </tspan>
+                <tspan className="font-bold lg:text-6xl md:text-5xl sm:text-4xl text-2xl" >Unggulan</tspan>
+              </text>
+          </svg>
+
         <img
           src={yellowLine2}
           alt=""
           className="absolute top-0 w-full z-1 "/>
-        {/* <div className="z-[999] container overflow-y-auto hide-scrollbar  relative lg:h-[550px] w-full flex flex-col gap-5 sm:gap-12 ">
-          <div className="flex lg:flex-row gap-5 flex-col justify-center items-center  lg:sticky lg:top-0">
-            <Cards
-              title={"MaFIA Inclusive Bootcamp (Masive Camp)"}
-              content={"Kementerian Advokasi & Kesejahteraan Mahasiswa"}
-              color={"#FDC2D6"}
-            />
-            <Cards
-              title={"MaFIA Talent Project (Mata Project)"}
-              content={"KementerianPemberdayaan Mahasiswa"}
-              color={"#F0BD51"}
-            />
-            <Cards
-              title={"MaFIA Social Impact (Masimpact)"}
-              content={"Kementerian Sosial Masyarakat"}
-              color={"#98A869"}
-            />
-          </div>
-
-          <div className="flex lg:flex-row gap-5 flex-col justify-center items-center sticky top-4 ">
-            <Cards
-              title={"MaFIA Inclusive Bootcamp (Masive Camp)"}
-              content={"Kementerian Advokasi & Kesejahteraan Mahasiswa"}
-              color={"#FDC2D6"}
-            />
-            <Cards
-              title={"MaFIA Talent Project (Mata Project)"}
-              content={"KementerianPemberdayaan Mahasiswa"}
-              color={"#F0BD51"}
-            />
-            <Cards
-              title={"MaFIA Social Impact (Masimpact)"}
-              content={"Kementerian Sosial Masyarakat"}
-              color={"#98A869"}
-            />
-          </div>
-
-          <div className="flex lg:flex-row gap-5 flex-col justify-center items-center sticky top-4">
-            <Cards
-              title={"MaFIA Inclusive Bootcamp (Masive Camp)"}
-              content={"Kementerian Advokasi & Kesejahteraan Mahasiswa"}
-              color={"#FDC2D6"}
-            />
-            <Cards
-              title={"MaFIA Talent Project (Mata Project)"}
-              content={"KementerianPemberdayaan Mahasiswa"}
-              color={"#F0BD51"}
-            />
-            <Cards
-              title={"MaFIA Social Impact (Masimpact)"}
-              content={"Kementerian Sosial Masyarakat"}
-              color={"#98A869"}
-            />
-          </div>
-        </div> */}
         <div className="relative z-99 w-full">
         
           {isLandscape ?    <Card />: 
@@ -142,9 +111,9 @@ export default function HomePage() {
             />
             <CardsPortrait
             cards={[
-              { title:"Kementerian Riset & Inovasi Karya", body: "Kementerian Pemberdayaan Mahasiswa",color:"#98A869"},
-              { title:"MaFIA Institute", body: "Kementerian Kajian & Aksi Strategis",color:"#98A869"},
               { title:"MaFIA Social Impact (Masimpact)", body: "Kementerian Sosial Masyarakat",color:"#98A869"},
+              { title:"MaFIA Institute", body: "Kementerian Kajian & Aksi Strategis",color:"#98A869"},
+              { title:"MaFIA Grow Fest (G-Fest)", body: "Kementerian Pemberdayaan Mahasiswa",color:"#98A869"},
             ]}
             />
           </div>
@@ -152,15 +121,39 @@ export default function HomePage() {
         </div>
       </div>
       <div className="min-h-screen relative flex flex-col justify-center items-center gap-10">
-        <span className="lg:text-9xl md:text-7xl text-5xl z-99 relative font-Bricolage text-center font-extrabold text-stroke-3   text-[#FDC2D6]">
+        {/* <span className="lg:text-9xl md:text-7xl text-5xl z-99 relative font-Bricolage text-center font-extrabold text-stroke-3   text-[#FDC2D6]">
           NEWS{" "}
           <span className="lg:text-8xl md:text-6xl text-4xl ">
             of The Month
           </span>
-        </span>
+        </span> */}
+         <svg width="100%" height="160" className="relative z-99">
+            <defs>
+              <filter id="dropshadow">
+                <feDropShadow dx="2" dy="2.5" stdDeviation="0" flood-color="black" flood-opacity="1" />
+              </filter>
+            </defs>
+
+            <text
+              x="50%"
+              y="50%"
+              dominantBaseline="middle"
+              className="font-Bricolage"
+              stroke="black"
+              strokeWidth="4"
+              fill="#FDC2D6"
+              textAnchor='middle'
+              paintOrder="stroke"
+              filter="url(#dropshadow)"
+              >
+                <tspan className="font-extrabold lg:text-9xl sm:text-5xl text-4xl">NEWS </tspan>
+                <tspan className="font-bold lg:text-7xl sm:text-4xl text-2xl ">of The Month</tspan>
+              </text>
+          </svg>
+
+
         <div className="w-full max-w-[2000px] mx-auto relative z-99">
           <Sliders />
-          {/* <ImageSlider images={image}/> */}
         </div>
    
           <div className="absolute sm:bottom-0 top-[50] z-10">
@@ -170,13 +163,13 @@ export default function HomePage() {
       </div>
  
       <div className="min-h-screen relative w-full">
-        <div className="w-full bg-[#FEFEFE] flex items-center border-t-[3.5px] border-b-[3.5px]">
+        <div className="w-full bg-[#FEFEFE] flex items-center border-t-[3.5px] border-b-[3.5px] z-99">
             <LogoMarquee />
         </div>
 
           <Service title="Service" subtitle1="Integrated System Advo" subtitle2="Ruang Aman" />
          
-          <div className="w-full flex justify-center sm:items-center ">
+          <div className="w-full flex justify-center items-center sm:relative absolute lg:top-0 bottom-[45px]">
             <svg  viewBox="0 0 135 336" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute z-50 sm:w-[130px] sm:h-[250px]  h-36  ">
               <g filter="url(#filter0_d_259_50)">
               <rect x="27" y="68" width="4" height="189" fill="#98A869"/>
@@ -208,7 +201,6 @@ export default function HomePage() {
          
       </div>
       <div className="">
-
         <svg height="399" viewBox="0 0 1920 399" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full absolute sm:bottom-[100px] bottom-[95px]">
           <path d="M1920 399H0V0C0.00146804 134.058 429.808 242.733 960 242.733C1490.19 242.733 1920 134.058 1920 0V399Z" fill="#1E1D1D"/>
         </svg>

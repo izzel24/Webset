@@ -49,5 +49,6 @@
 	align-items: center;
 	transition: all 0.5s;
     width: 30%;
-    max-height: 500px;
+	min-width: 200px;
+    max-height: 450px;
 }

@@ -37,7 +37,7 @@ body{
 
 
 .text-stroke-3 {
-  text-shadow: 3px 7px 7px rgba(0,0,0,1);
+  -webkit-text-stroke: 3px black;
 } 
 .text-stroke-2 {
   text-shadow: 2px 3px 1px black, 2px -2px 1px black, -2px 2px 1px black, 2px 2px 1px black;

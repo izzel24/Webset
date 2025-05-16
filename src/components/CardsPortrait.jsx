@@ -17,7 +17,9 @@ export default function CardsPortrait({cards=[]}) {
               >
                 <h1 className='font-Britania text-3xl text-center'>{card.title}</h1>
               </div>
-              <h2 className='font-Bricolage font-extrabold text-2xl text-center p-2'>{card.body}</h2>
+              <div className='h-[20%] flex justify-center items-center'>
+                <h2 className='font-Bricolage font-extrabold text-[16px] text-center p-2'>{card.body}</h2>
+              </div>
             </div>
           </li>
         ))}

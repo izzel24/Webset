@@ -31,7 +31,7 @@ export default function ServicePage() {
           <h2 className='md:text-6xl text-4xl text-white text-center font-Britania font-bold text-stroke-5 '>
             Ruang Aman
           </h2>
-          <p className='text-white md:text-3xl text-xl text-center font-Bricolage'>
+          <p className='text-white md:text-3xl text-xl text-center sfont-Bricolage'>
            Pengaduan dan hotline yang dibuat untuk pengaduan bagi mahasiswa serta civitas akademika FIA UB apabila mendapati/melihat perlakuan kekerasan atau perundungan di lingkungan kampus. 
           </p>
           <button className='font-Bricolage text-xl font-semibold bg-[#FDC2D6] p-2 px-10 rounded-4xl cursor-pointer'>Click Here</button>

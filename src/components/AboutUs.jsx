@@ -41,7 +41,7 @@ export default function AboutUs() {
 
 
             <div className='flex flex-col justify-center items-center gap-10 md:p-10 p-7'>
-                <img src={title} alt="" className='w-[500px]'/>
+                <img src={title} alt="" className='w-[800px]'/>
                 <span className='font-EB-Garamond text-white md:text-lg text-sm text-justify'>
                     Fakultas Ilmu Administrasi (FIA) merupakan rumah besar bagi para insan akademis, pengabdi, dan pencipta. FIA terbentuk dari banyak sekali simpul yang saling terhubung. Setiap simpul memiliki mimpi dan cita-cita bersama untuk tumbuh. Maka kami percaya seluruh simpul FIA harus Tumbuh Bersama melalui karya-karya terbaik, kolaborasi harmonis, dan aksi bermakna untuk FIA, Brawijaya dan Indonesia.
                 </span>
@@ -51,17 +51,17 @@ export default function AboutUs() {
                 </span>
             </div>
 
-            <div className='flex flex-col w-full md:gap-5 gap-10 relative '>
+            <div className='flex flex-col w-full md:gap-5  relative '>
                 <div className='flex flex-col gap-5 md:p-10 p-7 relative z-99'>
-                    <img src={title2} alt="" className='w-[450px]' />
-                    <span className='font-Britania text-[#98A869] md:text-7xl text-xl max-w-[800px] relative z-99' >“CIA-CIO” Collaboration, Integration, Adaptation, Catalyst, Inclusive, Optimation</span>
+                    <img src={title2} alt="" className='lg:w-[500px]' />
+                    <span className='font-Britania text-[#98A869] xl:text-7xl lg:text-6xl md:text-4xl sm:text-2xl text-xl lg:max-w-[800px] md:max-w-[550px] sm:max-w-[400px] max-w-[180px] relative z-99' >“CIA-CIO” Collaboration, Integration, Adaptation, Catalyst, Inclusive, Optimation</span>
                 </div>
                
-                <img src={line} alt="" className='w-full absolute top-0 z-10 md:flex ' />
+                <img src={line} alt="" className='w-full absolute lg:top-0 z-10 sm:top-0 top-[25%]' />
 
-                <div className='flex flex-col gap-5 mt-20 md:p-10 p-7 items-end w-full relative z-99'>
+                <div className='flex flex-col gap-5 lg:mt-20 mt-0 md:p-10 p-7 items-end w-full relative z-99'>
                     <img src={title3} alt="" className='w-[450px]'/>
-                    <span className='font-Britania text-[#98A869] md:text-7xl text-xl max-w-[800px] text-end'>Ing Ngarsa Sung Tuladha, Ing Madya Mangun Karsa, Tutwuri Handayani</span>
+                    <span className='font-Britania text-[#98A869] xl:text-7xl lg:text-6xl md:text-4xl sm:text-2xl text-xl lg:max-w-[800px] md:max-w-[550px] sm:max-w-[400px] max-w-[200px] text-end'>Ing Ngarsa Sung Tuladha, Ing Madya Mangun Karsa, Tutwuri Handayani</span>
                 </div>
             </div>
 
