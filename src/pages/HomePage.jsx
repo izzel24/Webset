@@ -156,14 +156,14 @@ export default function HomePage() {
           <Sliders />
         </div>
    
-          <div className="absolute sm:bottom-0 top-[50] z-10">
+          <div className="absolute sm:bottom-0 bottom-30 z-10">
             <img src={blueLine} alt="" className="w-[9999px]" />
           </div>
           
       </div>
  
       <div className="min-h-screen relative w-full">
-        <div className="w-full bg-[#FEFEFE] flex items-center border-t-[3.5px] border-b-[3.5px] z-99">
+        <div className="w-full bg-[#FEFEFE] flex items-center border-t-[3.5px] border-b-[3.5px] z-9">
             <LogoMarquee />
         </div>
 

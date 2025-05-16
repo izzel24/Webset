@@ -75,12 +75,12 @@ export default function Service({ title, subtitle1, subtitle2 }) {
               paintOrder="stroke"
               filter="url(#dropshadow)"
               >
-                {title}
+                <tspan>{title}</tspan>
               </text>
           </svg>
 
           {/* <p ref={subtitle1Ref} className="md:text-6xl text-4xl text-white text-center font-Britania text-stroke-3 font-bold relative">{subtitle1}</p> */}
-          <svg width="100%" height="50">
+          <svg width="100%" height="60" className='md:h-[60px] h-35px'>
             <defs>
               <filter id="dropshadow">
                 <feDropShadow dx="2" dy="2.5" stdDeviation="0" flood-color="black" flood-opacity="1" />
@@ -101,17 +101,16 @@ export default function Service({ title, subtitle1, subtitle2 }) {
               paintOrder="stroke"
               filter="url(#dropshadow)"
               >
-                {subtitle1}
+                <tspan>{subtitle1}</tspan>
               </text>
           </svg>
           {/* <p ref={subtitle2Ref} className="md:text-6xl text-4xl text-white text-center  font-Britania text-stroke-5 font-bold">{subtitle2}</p> */}
-          <svg   width="100%" className='lg:h-[50px] md:h-[38px] sm:h-[32px] h-[26px]'>
+          <svg   width="100%" className='md:h-[60px] h-[35px]'>
             <defs>
               <filter id="dropshadow">
                 <feDropShadow dx="2" dy="2.5" stdDeviation="0" flood-color="black" flood-opacity="1" />
               </filter>
             </defs>
-            <rect></rect>
 
             <text
               ref={subtitle2Ref}
@@ -127,7 +126,7 @@ export default function Service({ title, subtitle1, subtitle2 }) {
               textAnchor='middle'
               filter="url(#dropshadow)"
               >
-                {subtitle2}
+                <tspan>{subtitle2}</tspan>
               </text>
           </svg>
         </div>
