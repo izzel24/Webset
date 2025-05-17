@@ -13,6 +13,8 @@ import ServicePage from '../pages/ServicePage'
 import loadingf from '../assets/LOADING SCREEN HOMEPAGE (1).gif'
 import Navbar from '../components/Navbar'
 import Layout from '../pages/Layout'
+import ProgramKerja from '../pages/ProgramKerja'
+import Proker from '../pages/Proker'
 
 const HomePage = lazy(() =>
   new Promise(resolve =>
@@ -44,9 +46,11 @@ export default function AppRoutes() {
           </Route>
 
           <Route path="contact-us" element={<ContactUs />} />
-          <Route path="card" element={<ScrollGallery />} />
+          <Route path='program' element={<ProgramKerja />} />
+          <Route path="program-kerja" element={<Proker />} />
           <Route path="service" element={<ServicePage />} />
-          <Route path="navbar" element={<Navbar />} />
+
+
         </Route>
       </Routes>
     </Suspense>
