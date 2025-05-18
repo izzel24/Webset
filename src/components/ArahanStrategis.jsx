@@ -3,8 +3,7 @@ export default function ArahanStrategis() {
   return (
     <div className="bg-[#334075] w-full p-5">
       <div className="min-h-screen relative lg:p-10 p-5 flex flex-col">
-        <div className="flex flex-col gap-5">
-          {/* <img src={sek} alt=""  className='w-[450px]'/> */}
+        <div className="flex flex-col gap-2 mt-3">
           <svg
             viewBox="0 0 600 70"
             xmlns="http://www.w3.org/2000/svg"
@@ -93,8 +92,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-2">
-          {/* <img src={bendahara} alt="" className="w-[450px]" /> */}
+        <div className="flex flex-col gap-2 mt-3">
           <svg
             viewBox="0 0 600 70"
             xmlns="http://www.w3.org/2000/svg"
@@ -184,7 +182,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 mt-7">
           {/* <img src={pendayagunaan} alt="" className="w-[900px]" /> */}
           <svg
             viewBox="0 0 600 100"
@@ -319,7 +317,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 mt-3">
           {/* <img src={dkv} alt="" className="w-[900px]" /> */}
           <svg
             viewBox="0 0 600 70"
@@ -406,7 +404,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 mt-3">
           {/* <img src={ekonomi} alt="" className="w-[900px]" /> */}
           <svg
             viewBox="0 0 600 70"
@@ -485,7 +483,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 mt-7">
           {/* <img src={advokasi} alt="" className="w-[950px]" /> */}
           <svg
             viewBox="0 0 600 100"
@@ -589,7 +587,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 mt-3">
           {/* <img src={agama} alt="" className="w-[900px]" /> */}
           <svg
             viewBox="0 0 600 70"
@@ -667,7 +665,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 mt-3">
           {/* <img src={kajian} alt="" className="w-[900px]" /> */}
           <svg
             viewBox="0 0 600 70"
@@ -745,7 +743,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 mt-3">
           {/* <img src={pemberdayaan} alt="" className="w-[900px]" /> */}
           <svg
             viewBox="0 0 600 70"
@@ -820,7 +818,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 mt-3">
           {/* <img src={sosial} alt="" className="w-[900px]" /> */}
           <svg
             viewBox="0 0 600 70"
@@ -910,7 +908,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 mt-3">
           {/* <img src={riset} alt="" className="w-[900px]" /> */}
           <svg
             viewBox="0 0 600 70"
@@ -1001,7 +999,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 mt-3">
           {/* <img src={dalam} alt="" className="w-[900px]" /> */}
           <svg
             viewBox="0 0 600 70"
@@ -1087,7 +1085,7 @@ export default function ArahanStrategis() {
             </ul>
           </span>
         </div>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2 mt-3">
           {/* <img src={pengarusutamaan} alt="" className="w-[900px]" /> */}
           <svg
             viewBox="0 0 600 70"

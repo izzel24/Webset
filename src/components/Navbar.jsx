@@ -23,7 +23,7 @@ export default function Navbar({ open }) {
         }
     }, [isOpen])
 
-    const menuItems = ["Home", "About", "People", "Program", "Partner", "News", "Service", "Connect Us"]
+    const menuItems = ["Home", "About", "People", "Program", "Partner", "News", "Service", "Connect With Us"]
 
     const containerVariants = {
         hidden: { opacity: 0, height: 0 },
@@ -78,7 +78,7 @@ export default function Navbar({ open }) {
                                     <Link
                                         className='py-4 block text-center hover:bg-[#EAEAEA] font-Bricolage font-semibold'
                                         onClick={() => setIsopen(false)}
-                                        to={`/${item.toLowerCase()}`}
+                                        to={`/${item.toLowerCase().replace(/\s+/g, '-')}`}
                                     >
                                         {item}
                                     </Link>
