@@ -64,7 +64,7 @@ export default function Navbar({ open }) {
                     <motion.div
                         className='fixed top-0 left-0 w-screen h-screen bg-white z-[998] flex items-center justify-center overflow-hidden'
                         initial="hidden"
-                        animate="visible"
+                        animate={isOpen ? "visible" : "hidden"}
                         exit="exit"
                         variants={containerVariants}
                     >

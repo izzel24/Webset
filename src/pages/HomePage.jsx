@@ -23,7 +23,6 @@ export default function HomePage() {
   const [isLandscape, setIsLandscape] = useState(
     window.matchMedia("(orientation: landscape)").matches
   );
-
   useEffect(() => {
     const handleOrientationChange = () => {
       setIsLandscape(window.matchMedia("(orientation: landscape)").matches);
@@ -312,22 +311,6 @@ export default function HomePage() {
           </svg>
         </div>
       </div>
-      <div className="">
-        <svg
-          height="399"
-          viewBox="0 0 1920 399"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-full absolute sm:bottom-[100px] bottom-[95px]"
-        >
-          <path
-            d="M1920 399H0V0C0.00146804 134.058 429.808 242.733 960 242.733C1490.19 242.733 1920 134.058 1920 0V399Z"
-            fill="#1E1D1D"
-          />
-        </svg>
-      </div>
-
-      <Footer />
     </div>
   );
 }

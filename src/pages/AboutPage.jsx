@@ -5,7 +5,7 @@ import { Link, Outlet } from 'react-router-dom'
 export default function AboutPage() {
   return (
     <div className=''>
-        <div className='flex flex-col w-full md:p-10 p-5'>
+        <div className='flex flex-col w-full md:p-10 p-5 mb-84'>
             <div className='flex w-full gap-1  '>
                 <Link to={'/about'} className='bg-[#F0BD51] buttonAbout md:px-8 px-2 md:py-2 py-1 flex items-center font-Bricolage font-semibold'><p className='md:text-lg text-xs text-center'>Sections</p></Link>
                 <Link to={'/about/about-us'} className='bg-[#1E1C1C] buttonAbout md:px-8 px-2 md:py-2 py-1 flex items-center font-Bricolage font-semibold text-white'> <p className='md:text-lg text-xs text-center'>About Us</p></Link>

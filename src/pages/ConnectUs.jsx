@@ -10,8 +10,8 @@ import call from "../assets/Call--Streamline-Ionic-Filled.svg.svg";
 
 export default function ConnectUs() {
   return (
-    <div className="min-w-[330px]">
-      <div className="bg-[#334075] min-h-screen py-10">
+    <div className="min-w-[330px] bg-[#334075] h-full">
+      <div className="bg-[#334075] min-h-screen py-10 pb-84">
         <div className="min-h-screen flex flex-col">
           <div className="relative md:h-[800px] h-[450px]">
             <div className="bg-[#FDC2D6] md:h-[65%] h-[60%] md:w-[90%] w-[95%] absolute right-0 rounded-l-full flex flex-col md:gap-4 gap-2 justify-center items-center p-10 z-99">

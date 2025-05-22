@@ -124,7 +124,7 @@ export default function ProgramKerja() {
   ];
 
   return (
-    <div className="min-h-screen flex justify-center p-20">
+    <div className="min-h-screen flex justify-center p-20 mb-84">
       <div className="h-full w-full flex flex-col justify-center items-center gap-5">
         <h1 className="bg-gradient-to-r from-[#334075] to-[#5F78DB] inline-block text-transparent bg-clip-text font-Bricolage font-extrabold md:text-7xl text-4xl text-center">
           Program Kerja Unggulan
