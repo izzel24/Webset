@@ -25,7 +25,7 @@ export default function RouteTransitionWrapper({ children }) {
     }, 500)
 
     return () => clearTimeout(timer)
-  }, [location.pathname, location.hash]) 
+  }, [location.pathname]) 
 
   if (loading) {
     return (

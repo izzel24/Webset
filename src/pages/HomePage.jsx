@@ -39,19 +39,19 @@ export default function HomePage() {
       <div className="relative h-screen bg-[#334075] flex flex-col justify-center items-center min-w-[300px]">
         <img
           src={star}
-          className="absolute z-1 left-10 top-10 md:w-[130px] w-[100px]"
+          className="absolute z-1 left-10 top-10 md:w-[90px] w-[70px]"
         />
         <img
           src={star}
-          className="absolute z-1 bottom-10 md:w-[100px] w-[70px] right-[50%] "
+          className="absolute z-1 bottom-10 md:w-[70px] w-[40px] right-[50%] "
         />
         <img
           src={star}
-          className="absolute z-1 bottom-52 right-16 md:w-[80px] w-[50px] "
+          className="absolute z-1 bottom-52 right-16 md:w-[60px] w-[30px] "
         />
         <img
           src={plane}
-          className="absolute z-1 bottom-10 right-10 md:w-[80px] w-[50px]"
+          className="absolute animate-plane z-1 bottom-10 right-10 md:w-[80px] w-[50px]"
         />
         <div className="flex flex-col justify-center items-center w-full">
           <div className=" relative w-full flex justify-center gap-2 ">
