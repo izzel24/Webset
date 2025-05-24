@@ -1,11 +1,10 @@
-
 export default function ArahanStrategis() {
   return (
     <div className="bg-[#334075] w-full p-5">
       <div className="min-h-screen relative lg:p-10 p-5 flex flex-col">
         <div className="flex flex-col gap-2 mt-3">
           <svg
-            viewBox="0 0 600 70"
+            viewBox="0 0 600 80"
             xmlns="http://www.w3.org/2000/svg"
             className="w-full h-auto"
             preserveAspectRatio="xMidYMid meet"
@@ -30,12 +29,12 @@ export default function ArahanStrategis() {
             </defs>
 
             <g
-              className="font-Britania md:text-[30px] text-[47px]"
+              className="font-Britania md:text-[30px] text-[40px]"
               textAnchor="start"
             >
               <text
                 x="1"
-                y="55"
+                y="50"
                 fill="#96274C"
                 stroke="#96274C"
                 strokeWidth="4"
@@ -43,12 +42,12 @@ export default function ArahanStrategis() {
               >
                 Sekretaris Kabinet
               </text>
-              <text x="1" y="55" fill="black" opacity="0.6">
+              <text x="1" y="50" fill="black" opacity="0.6">
                 Sekretaris Kabinet
               </text>
               <text
                 x="1"
-                y="55"
+                y="50"
                 fill="#FDC2D6"
                 stroke="black"
                 strokeWidth="1"
@@ -161,7 +160,7 @@ export default function ArahanStrategis() {
                 kabinet dengan transparan, akuntabel, dan sesuai dengan
                 prioritas kegiatan yang telah ditetapkan.{" "}
               </li>
-              <li>
+              <li>{/*  */}
                 {" "}
                 2. Menyediakan alur (SOP) laporan keuangan berkala untuk kabinet
                 dan memastikan alokasi dana tepat sasaran untuk mendukung
@@ -209,109 +208,80 @@ export default function ArahanStrategis() {
             </defs>
 
             <g
-              className="font-Britania md:text-[30px] text-[47px]"
+              className="font-Britania md:text-[30px] text-[40px]"
               textAnchor="start"
             >
               <text
                 x="1"
-                y="40"
+                y="45"
                 fill="#96274C"
                 stroke="#96274C"
                 strokeWidth="4"
                 filter="url(#shadowRed)"
               >
-                Pendayagunaan Aparatur
+                Advokasi & Kesejahteraan
               </text>
-              <text x="1" y="40" fill="black" opacity="0.6">
-                Pendayagunaan Aparatur
+              <text x="1" y="45" fill="black" opacity="0.6">
+                Advokasi & Kesejahteraan
               </text>
               <text
                 x="1"
-                y="40"
+                y="45"
                 fill="#FDC2D6"
                 stroke="black"
                 strokeWidth="1"
                 paintOrder="stroke"
                 filter="url(#shadowBlack)"
               >
-                Pendayagunaan Aparatur
+                Advokasi & Kesejahteraan
               </text>
 
               <text
                 x="1"
-                y="80"
+                y="85"
                 fill="#96274C"
                 stroke="#96274C"
                 strokeWidth="4"
                 filter="url(#shadowRed)"
               >
-                dan Reformasi Organisasi
+                Mahasiswa
               </text>
-              <text x="1" y="80" fill="black" opacity="0.6">
-                dan Reformasi Organisasi
+              <text x="1" y="85" fill="black" opacity="0.6">
+                Mahasiswa
               </text>
               <text
                 x="1"
-                y="80"
+                y="85"
                 fill="#FDC2D6"
                 stroke="black"
                 strokeWidth="1"
                 paintOrder="stroke"
                 filter="url(#shadowBlack)"
               >
-                dan Reformasi Organisasi
+                Mahasiswa
               </text>
             </g>
           </svg>
 
           <span className="font-Bricolage md:text-lg text-sm text-white">
-            Memastikan seleksi, pengawasan, peningkatan kapasitas aparatur,
-            serta pengelolaan organisasi dan program kerja melalui KPI, OKR, dan
-            SOP yang terintegrasi..
+            Memberdayakan mentor MBKM, mengawal isu kesehatan mental, serta
+            bantuan keuangan mahasiswa FIA.
             <ul>
               <li>
                 {" "}
-                1. Menyusun dan melaksanakan proses penjaringan aparatur staff
-                kementerian/biro maupun panitia program kerja secara objektif,
-                terintegrasi dan efektif{" "}
+                1. Menghimpun data dan memberdayakan mahasiswa MSIB, Beswan, dan
+                IISMA untuk menjadi mentor dalam memfasilitasi pengembangan dan
+                persiapan mahasiswa menghadapi program-program MBKM serta
+                beasiswa.
               </li>
               <li>
                 {" "}
-                2. Membuat dan melaksanakan pengawasan kapasitas aparatur
-                menggunakan KPI dan capaian kinerja aparatur{" "}
+                2. Mengawal dan meningkatkan kesadaran isu kesehatan mental.{" "}
               </li>
               <li>
                 {" "}
-                3. Merancang dan melaksanakan peningkatan kapasitas aparatur
-                sesuai dengan kebutuhan individu, kementerian/biro dan
-                organisasi melalui TO, kelas internalisasi, dan upgrading{" "}
-              </li>
-              <li>
-                {" "}
-                4. Menyusun dan melaksanakan pengawasan dan jaminan mutu
-                terhadap organisasi, kementerian dan biro menggunakan KPI, OKR
-                dan analisis kepuasan masyarakat
-              </li>
-              <li>
-                {" "}
-                5. Merancang dan melaksanakan pengawasan dan jaminan mutu
-                terhadap program kerja dan giat kerja menggunakan analisis
-                kebutuhan pasar, KPI dan analisis kepuasan kinerja{" "}
-              </li>
-              <li>
-                {" "}
-                6. Merancang dan menyusun SOP organisasi dan masing-masing
-                kementerian/biro{" "}
-              </li>
-              <li>
-                {" "}
-                7. Melaksanakan program pembinaan budaya organisasi yang
-                mengedepankan self-healing{" "}
-              </li>
-              <li>
-                {" "}
-                8. Membuat kanal integrasi monitoring dan evaluasi yang
-                transparan dan akuntabel.{" "}
+                3. Menghimpun, mengawal, dan memperjuangkan bantuan keuangan
+                mahasiswa.{" "}
               </li>
             </ul>
           </span>
@@ -518,10 +488,10 @@ export default function ArahanStrategis() {
                 strokeWidth="4"
                 filter="url(#shadowRed)"
               >
-                Advokasi & Kesejahteraan 
+                Pendayagunaan Aparatur
               </text>
               <text x="1" y="40" fill="black" opacity="0.6">
-                Advokasi & Kesejahteraan
+                Pendayagunaan Aparatur
               </text>
               <text
                 x="1"
@@ -532,8 +502,9 @@ export default function ArahanStrategis() {
                 paintOrder="stroke"
                 filter="url(#shadowBlack)"
               >
-                Advokasi & Kesejahteraan
+                Pendayagunaan Aparatur
               </text>
+
               <text
                 x="1"
                 y="80"
@@ -542,10 +513,10 @@ export default function ArahanStrategis() {
                 strokeWidth="4"
                 filter="url(#shadowRed)"
               >
-                Mahasiswa
+                dan Reformasi Organisasi
               </text>
               <text x="1" y="80" fill="black" opacity="0.6">
-                Mahasiswa
+                dan Reformasi Organisasi
               </text>
               <text
                 x="1"
@@ -556,183 +527,58 @@ export default function ArahanStrategis() {
                 paintOrder="stroke"
                 filter="url(#shadowBlack)"
               >
-                Mahasiswa
+                dan Reformasi Organisasi
               </text>
             </g>
           </svg>
           <span className="font-Bricolage md:text-lg text-sm text-white">
-            Memberdayakan mentor MBKM, mengawal isu kesehatan mental, serta
-            bantuan keuangan mahasiswa FIA.
+            Memastikan seleksi, pengawasan, peningkatan kapasitas aparatur,
+            serta pengelolaan organisasi dan program kerja melalui KPI, OKR, dan
+            SOP yang terintegrasi..
             <ul>
               <li>
                 {" "}
-                1. Menghimpun data dan memberdayakan mahasiswa MSIB, Beswan, dan
-                IISMA untuk menjadi mentor dalam memfasilitasi pengembangan dan
-                persiapan mahasiswa menghadapi program-program MBKM serta
-                beasiswa.
+                1. Menyusun dan melaksanakan proses penjaringan aparatur staff
+                kementerian/biro maupun panitia program kerja secara objektif,
+                terintegrasi dan efektif{" "}
               </li>
               <li>
                 {" "}
-                2. Mengawal dan meningkatkan kesadaran isu kesehatan mental.{" "}
+                2. Membuat dan melaksanakan pengawasan kapasitas aparatur
+                menggunakan KPI dan capaian kinerja aparatur{" "}
               </li>
               <li>
                 {" "}
-                3. Menghimpun, mengawal, dan memperjuangkan bantuan keuangan
-                mahasiswa.{" "}
-              </li>
-            </ul>
-          </span>
-        </div>
-        <div className="flex flex-col gap-2 mt-3">
-          <svg
-            viewBox="0 0 600 70"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full h-auto"
-            preserveAspectRatio="xMidYMid meet"
-          >
-            <defs>
-              <filter id="shadowRed">
-                <feDropShadow
-                  dx="0"
-                  dy="3"
-                  stdDeviation="0"
-                  floodColor="#5B112A"
-                />
-              </filter>
-              <filter id="shadowBlack">
-                <feDropShadow
-                  dx="0"
-                  dy="1"
-                  stdDeviation="0"
-                  floodColor="black"
-                />
-              </filter>
-            </defs>
-
-            <g
-              className="font-Britania md:text-[30px] text-[47px]"
-              textAnchor="start"
-            >
-              <text
-                x="1"
-                y="55"
-                fill="#96274C"
-                stroke="#96274C"
-                strokeWidth="4"
-                filter="url(#shadowRed)"
-              >
-                Agama
-              </text>
-              <text x="1" y="55" fill="black" opacity="0.6">
-                Agama
-              </text>
-              <text
-                x="1"
-                y="55"
-                fill="#FDC2D6"
-                stroke="black"
-                strokeWidth="1"
-                paintOrder="stroke"
-                filter="url(#shadowBlack)"
-              >
-                Agama
-              </text>
-            </g>
-          </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
-            Memberdayakan unit keagamaan, meningkatkan toleransi, serta mengawal
-            isu keagamaan, keberagaman, dan kebangsaan di FIA.
-            <ul>
-              <li>
-                {" "}
-                1. Menghimpun, memberdayakan, serta memfasilitasi unit-unit
-                keagamaan di Lingkungan FIA.
+                3. Merancang dan melaksanakan peningkatan kapasitas aparatur
+                sesuai dengan kebutuhan individu, kementerian/biro dan
+                organisasi melalui TO, kelas internalisasi, dan upgrading{" "}
               </li>
               <li>
                 {" "}
-                2. Meningkatkan kesadaran beragama dan toleransi antar umat
-                beragama di Lingkungan FIA.{" "}
+                4. Menyusun dan melaksanakan pengawasan dan jaminan mutu
+                terhadap organisasi, kementerian dan biro menggunakan KPI, OKR
+                dan analisis kepuasan masyarakat
               </li>
               <li>
                 {" "}
-                3. Mengawal isu-isu keagamaan, keberagaman, dan kebangsaan.{" "}
-              </li>
-            </ul>
-          </span>
-        </div>
-        <div className="flex flex-col gap-2 mt-3">
-          <svg
-            viewBox="0 0 600 70"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full h-auto"
-            preserveAspectRatio="xMidYMid meet"
-          >
-            <defs>
-              <filter id="shadowRed">
-                <feDropShadow
-                  dx="0"
-                  dy="3"
-                  stdDeviation="0"
-                  floodColor="#5B112A"
-                />
-              </filter>
-              <filter id="shadowBlack">
-                <feDropShadow
-                  dx="0"
-                  dy="1"
-                  stdDeviation="0"
-                  floodColor="black"
-                />
-              </filter>
-            </defs>
-
-            <g
-              className="font-Britania md:text-[30px] text-[47px]"
-              textAnchor="start"
-            >
-              <text
-                x="1"
-                y="55"
-                fill="#96274C"
-                stroke="#96274C"
-                strokeWidth="4"
-                filter="url(#shadowRed)"
-              >
-                Kajian dan Aksi Strategis
-              </text>
-              <text x="1" y="55" fill="black" opacity="0.6">
-                Kajian dan Aksi Strategis
-              </text>
-              <text
-                x="1"
-                y="55"
-                fill="#FDC2D6"
-                stroke="black"
-                strokeWidth="1"
-                paintOrder="stroke"
-                filter="url(#shadowBlack)"
-              >
-                Kajian dan Aksi Strategis
-              </text>
-            </g>
-          </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
-            Meningkatkan kesadaran isu strategis melalui kajian rutin,
-            propaganda, dan aksi sebagai pressure group dan social control.
-            <ul>
-              <li>
-                {" "}
-                1. Meningkatkan kesadaran dan pemahaman Mahasiswa terhadap
-                isu-isu strategis dan kontemporer baik lingkup regional maupun
-                nasional yang relevan dengan keilmuan administrasi secara
-                kreatif dan persuasif melalui kajian dan diskusi rutin.
+                5. Merancang dan melaksanakan pengawasan dan jaminan mutu
+                terhadap program kerja dan giat kerja menggunakan analisis
+                kebutuhan pasar, KPI dan analisis kepuasan kinerja{" "}
               </li>
               <li>
                 {" "}
-                2. Turut serta dalam mengawal dan mengadvokasikan isu-isu
-                strategis dan kontemporer baik lingkup regional maupun nasional
-                melalui masifikasi propaganda dan aksi berfokus pada pressure
-                group and social control.
+                6. Merancang dan menyusun SOP organisasi dan masing-masing
+                kementerian/biro{" "}
+              </li>
+              <li>
+                {" "}
+                7. Melaksanakan program pembinaan budaya organisasi yang
+                mengedepankan self-healing{" "}
+              </li>
+              <li>
+                {" "}
+                8. Membuat kanal integrasi monitoring dan evaluasi yang
+                transparan dan akuntabel.{" "}
               </li>
             </ul>
           </span>
@@ -1168,6 +1014,83 @@ export default function ArahanStrategis() {
                 6. Menginisiasi pembentukan Satuan Tugas PPKS bersama tiap-tiap
                 LKM FIA yang akan menjadi jembatan antara ULTKSP dengan
                 LKM/Mahasiswa
+              </li>
+            </ul>
+          </span>
+        </div>
+        <div className="flex flex-col gap-2 mt-3">
+          <svg
+            viewBox="0 0 600 70"
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-full h-auto"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <defs>
+              <filter id="shadowRed">
+                <feDropShadow
+                  dx="0"
+                  dy="3"
+                  stdDeviation="0"
+                  floodColor="#5B112A"
+                />
+              </filter>
+              <filter id="shadowBlack">
+                <feDropShadow
+                  dx="0"
+                  dy="1"
+                  stdDeviation="0"
+                  floodColor="black"
+                />
+              </filter>
+            </defs>
+
+            <g
+              className="font-Britania md:text-[30px] text-[47px]"
+              textAnchor="start"
+            >
+              <text
+                x="1"
+                y="55"
+                fill="#96274C"
+                stroke="#96274C"
+                strokeWidth="4"
+                filter="url(#shadowRed)"
+              >
+                Kajian dan Aksi Strategis
+              </text>
+              <text x="1" y="55" fill="black" opacity="0.6">
+                Kajian dan Aksi Strategis
+              </text>
+              <text
+                x="1"
+                y="55"
+                fill="#FDC2D6"
+                stroke="black"
+                strokeWidth="1"
+                paintOrder="stroke"
+                filter="url(#shadowBlack)"
+              >
+                Kajian dan Aksi Strategis
+              </text>
+            </g>
+          </svg>
+          <span className="font-Bricolage md:text-lg text-sm text-white">
+            Meningkatkan kesadaran isu strategis melalui kajian rutin,
+            propaganda, dan aksi sebagai pressure group dan social control.
+            <ul>
+              <li>
+                {" "}
+                1. Meningkatkan kesadaran dan pemahaman Mahasiswa terhadap
+                isu-isu strategis dan kontemporer baik lingkup regional maupun
+                nasional yang relevan dengan keilmuan administrasi secara
+                kreatif dan persuasif melalui kajian dan diskusi rutin.
+              </li>
+              <li>
+                {" "}
+                2. Turut serta dalam mengawal dan mengadvokasikan isu-isu
+                strategis dan kontemporer baik lingkup regional maupun nasional
+                melalui masifikasi propaganda dan aksi berfokus pada pressure
+                group and social control.
               </li>
             </ul>
           </span>

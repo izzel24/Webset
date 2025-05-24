@@ -122,8 +122,6 @@ body{
 .triple-slider-container .swiper-slide {
   background-color: #f0f0f0;
   display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 20px;
   color: #333;
   border-radius: 8px;
@@ -133,35 +131,31 @@ body{
 }
 
 .triple-slider-container .swiper-slide-active {
-  height: 400px; /* Memperbesar slide aktif */
+  height: 400px;
   opacity: 1;
 }
 
-@media only screen and (width < 600px) {
+@media only screen and (width < 750px) {
   .triple-slider-container .swiper-slide {
-    height: 200px;
+    height: 100px;
+    max-width: 15%;
+    margin-left: 5% !important;
+
+  }
+
+  .triple-slider-container .swiper-slide h1{
+    display: none;
   }
   .triple-slider-container .swiper-slide-active {
-    height: 250px; 
-    padding-inline: 70px;
+    height: 250px;
+    min-width: 70%;
+    margin-left: 5% !important;
     opacity: 1;
   }
+    .triple-slider-container .swiper-slide-active h1{
+      display: flex;
+    }
 }
-
-.swiper-button-prev,
-.swiper-button-next {
-  color: black; /* Warna tombol navigasi */
-}
-
-.swiper-pagination-bullet {
-  background-color: #ccc; /* Warna bullet pagination tidak aktif */
-  opacity: 1;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: black; /* Warna bullet pagination aktif */
-}
-
 
 
 
@@ -188,4 +182,8 @@ body{
 
 .buttonAbout{
   clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
+.dropShadow{
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }

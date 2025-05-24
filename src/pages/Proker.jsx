@@ -9,13 +9,13 @@ export default function Proker() {
       >
         <div className="flex flex-col justify-center items-center h-full w-[70%] gap-10">
           <div>
-            <h1 className="font-Britania md:text-6xl text-lg text-center relative z-99">
+            <h1 className="font-Britania xl:text-6xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center relative z-99">
               MaFIA Inclusive Bootcamp (Massive Camp)
             </h1>
           </div>
 
           <div>
-            <p className="font-Bricolage lg:text-4xl md:text-3xl text-justify relative z-99">
+            <p className="font-Bricolage lg:text-3xl md:text-2xl text-justify relative z-99">
               Merupakan program kerja penghimpunan data mahasiswa alumni MSIB,
               Beswan maupun IISMA dilanjutkan dengan Mentoring Intensif, Lomba,
               serta yang akan berkolaborasi dengan lembaga kursus dan pelatihan
@@ -57,13 +57,13 @@ export default function Proker() {
       >
         <div className="flex flex-col justify-center items-center h-full w-[70%] gap-10">
           <div>
-            <h1 className="font-Britania md:text-6xl text-lg text-center relative z-99">
+            <h1 className="font-Britania xl:text-6xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center relative z-99">
               MaFIA Talent Project (Mata Project)
             </h1>
           </div>
 
           <div>
-            <p className="font-Bricolage lg:text-4xl md:text-3xl text-justify relative z-99">
+            <p className="font-Bricolage xl:text-3xl lg:text-2xl md:text-xl text-justify relative z-99">
               Merupakan program kerja Pelatihan CV, interview dan Copywriting,
               Project Pelatihan (Lomba), Seminar karir, dan Job Fair, yang
               bekerjasama dengan lembaga pengembangan maupun Unit Career Center
@@ -104,13 +104,13 @@ export default function Proker() {
       >
         <div className="flex flex-col justify-center items-center h-full w-[70%] gap-10">
           <div>
-            <h1 className="font-Britania md:text-6xl text-lg text-center relative z-99">
+            <h1 className="font-Britania xl:text-6xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center relative z-99">
               MaFIA Social Impact (Masimpact)
             </h1>
           </div>
 
           <div>
-            <p className="font-Bricolage lg:text-4xl md:text-3xl text-justify relative z-99">
+            <p className="font-Bricolage lg:text-3xl md:text-2xl text-justify relative z-99">
               Merupakan program kerja kelas pengabdian dan pemberdayaan
               masyarakat desa secara kolaboratif dengan lkm/lof maupun lsm yang
               berfokus pada administrasi pemerintahan desa dan ekonomi kreatif
@@ -151,13 +151,13 @@ export default function Proker() {
       >
         <div className="flex flex-col justify-center items-center h-full w-[70%] gap-10">
           <div>
-            <h1 className="font-Britania md:text-6xl text-lg text-center relative z-99">
+            <h1 className="font-Britania xl:text-6xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center relative z-99">
               MaFIA Bussines Submit (MBS)
             </h1>
           </div>
 
           <div>
-            <p className="font-Bricolage lg:text-4xl md:text-3xl text-justify relative z-99">
+            <p className="font-Bricolage lg:text-3xl md:text-2xl text-justify relative z-99">
               Merupakan program kerja lomba bussines case, bussiness plan
               competition tingkat nasional, kelas pemberdayaan umkm dan usaha
               mahasiswa serta bazar UMKM, dan seminar ekonomi kreatif secara
@@ -202,13 +202,13 @@ export default function Proker() {
       >
         <div className="flex flex-col justify-center items-center h-full w-[70%] gap-10">
           <div>
-            <h1 className="font-Britania md:text-6xl text-lg text-center relative z-99">
+            <h1 className="font-Britania xl:text-6xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center relative z-99">
               MaFIA Efficiency Boost (MaFEst)
             </h1>
           </div>
 
           <div>
-            <p className="font-Bricolage lg:text-4xl md:text-3xl text-justify relative z-99">
+            <p className="font-Bricolage lg:text-3xl md:text-2xl text-justify relative z-99">
               Merupakan program kerja pengawasan kinerja staff dan organisasi
               secara berkala menggunakan pendekatan KPI dan OKR. Berupa
               pembuatan kanal integrasi monitoring, Penyusunan SOP organisasi
@@ -250,13 +250,13 @@ export default function Proker() {
       >
         <div className="flex flex-col justify-center items-center h-full w-[70%] gap-10">
           <div>
-            <h1 className="font-Britania md:text-6xl text-lg text-center relative z-99">
+            <h1 className="font-Britania xl:text-6xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center relative z-99">
               MaFIA Insitute
             </h1>
           </div>
 
           <div>
-            <p className="font-Bricolage lg:text-4xl md:text-3xl text-justify relative z-99">
+            <p className="font-Bricolage lg:text-3xl md:text-2xl text-justify relative z-99">
               Merupakan program kerja Kelas kepenulisan kajian, Lomba orasi,
               debat, dan policy brief tingkat nasional, dengar pendapat dengan
               pemerintah serta publikasi kajian dan policy brief terhadap isu
@@ -299,13 +299,13 @@ export default function Proker() {
       >
         <div className="flex flex-col justify-center items-center h-full w-[70%] gap-10">
           <div>
-            <h1 className="font-Britania md:text-6xl text-lg text-center relative z-99">
+            <h1 className="font-Britania xl:text-6xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center relative z-99">
               MaFIA Industry Insight (Minsight)
             </h1>
           </div>
 
           <div>
-            <p className="font-Bricolage lg:text-4xl md:text-3xl text-justify relative z-99">
+            <p className="font-Bricolage lg:text-3xl md:text-2xl text-justify relative z-99">
               Merupakan program kerja Pelatihan BMC dan Case Resolve, Mini
               Project (Lomba), dan kunjungan perusahaan dan instansi pemerintah
               dengan tujuan untuk mendapatkan wawasan langsung tentang dunia
@@ -348,13 +348,13 @@ export default function Proker() {
       >
         <div className="flex flex-col justify-center items-center h-full w-[70%] gap-10">
           <div>
-            <h1 className="font-Britania md:text-6xl text-lg text-center relative z-99">
+            <h1 className="font-Britania xl:text-6xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center relative z-99">
               MaFIA Research n Innovation Forum (Marinovation)
             </h1>
           </div>
 
           <div>
-            <p className="font-Bricolage lg:text-4xl md:text-3xl text-justify relative z-99">
+            <p className="font-Bricolage lg:text-3xl md:text-2xl text-justify relative z-99">
               Merupakan program kerja seleksi dan pemilihan mahasiswa
               berprestasi FIA UB berbentuk seleksi administratif, kelas
               penelitian dan public speaking, kompetisi dan awarding yang
@@ -397,13 +397,13 @@ export default function Proker() {
       >
         <div className="flex flex-col justify-center items-center h-full w-[70%] gap-10">
           <div>
-            <h1 className="font-Britania md:text-6xl text-lg text-center relative z-99">
+            <h1 className="font-Britania xl:text-6xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center relative z-99">
               MaFIA Grow Fest (G-fest)
             </h1>
           </div>
 
           <div>
-            <p className="font-Bricolage lg:text-4xl md:text-3xl text-justify relative z-99">
+            <p className="font-Bricolage lg:text-3xl md:text-2xl text-justify relative z-99">
               Merupakan sebuah puncak acara dari program kerja BEM FIA UB yang
               berbentuk konser amal kampanye lingkungan, parade talenta, bazar
               tenant produk umkm dan malam anugerah civitas akademika FIA.

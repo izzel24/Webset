@@ -1,6 +1,7 @@
 
 import React, { useEffect, useRef } from 'react'
 import pinkBottom from "../assets/pinkLinBottom.svg"
+import pink from "../assets/Vector 6.png"
 
 import "../service.css"
 import gsap from 'gsap';

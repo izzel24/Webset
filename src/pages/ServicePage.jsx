@@ -66,7 +66,7 @@ export default function ServicePage() {
           <p className='text-white md:text-3xl text-lg text-center font-Bricolage'>
             Informasi narahubung sebagai Call Center pelayanan Advokesma dan Informasi narahubung FIA UB
           </p>
-          <button className='font-Bricolage text-xl font-semibold bg-[#FDC2D6] p-2 px-10 rounded-4xl cursor-pointer'>Click Here</button>
+          <a className='font-Bricolage text-xl font-semibold bg-[#FDC2D6] p-2 px-10 rounded-4xl cursor-pointer' href='https://linktr.ee/AdvokesmaBEMFIAUB' target='_blank' rel="noopener noreferrer" >Click Here</a>
         </div>
 
         <div className='flex flex-col justify-center items-center gap-20 md:p-12 p-7'>
@@ -95,7 +95,7 @@ export default function ServicePage() {
           <p className='text-white md:text-3xl text-lg text-center sfont-Bricolage'>
            Pengaduan dan hotline yang dibuat untuk pengaduan bagi mahasiswa serta civitas akademika FIA UB apabila mendapati/melihat perlakuan kekerasan atau perundungan di lingkungan kampus. 
           </p>
-          <button className='font-Bricolage text-xl font-semibold bg-[#FDC2D6] p-2 px-10 rounded-4xl cursor-pointer'>Click Here</button>
+          <a className='font-Bricolage text-xl font-semibold bg-[#FDC2D6] p-2 px-10 rounded-4xl cursor-pointer relative z-99' href='http://bit.ly/FormPengaduanRuangAman' target='_blank' rel="noopener noreferrer">Click Here</a>
         </div>
       </div>
     </div>

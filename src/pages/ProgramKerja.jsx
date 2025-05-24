@@ -11,7 +11,7 @@ const BoxWithSVG = ({
   id,
 }) => (
   <div
-    className={`bg-[${bgColor}] lg:w-[350px] lg:h-[350px] w-[275px] h-[275px] rounded-[42px] relative flex items-center justify-center`}
+    className={`bg-[${bgColor}] xl:w-[350px] xl:h-[350px] lg:w-[280px] lg:h-[280px]  md:w-[275px] md:h-[275px] w-[250px] h-[250px] rounded-[42px] relative flex overflow-hidden items-center justify-center`}
   >
     <svg
       viewBox={viewBox}
@@ -126,10 +126,10 @@ export default function ProgramKerja() {
   return (
     <div className="min-h-screen flex justify-center p-20 mb-84">
       <div className="h-full w-full flex flex-col justify-center items-center gap-5">
-        <h1 className="bg-gradient-to-r from-[#334075] to-[#5F78DB] inline-block text-transparent bg-clip-text font-Bricolage font-extrabold md:text-7xl text-4xl text-center">
+        <h1 className="bg-gradient-to-r from-[#334075] to-[#5F78DB] inline-block text-transparent bg-clip-text font-Bricolage font-extrabold xl:text-7xl lg:text-6xl md:text-4xl sm:text-3xl text-2xl text-center">
           Program Kerja Unggulan
         </h1>
-        <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-5 w-full justify-items-center items-center cursor-pointer" >
+        <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 w-full justify-items-center items-center cursor-pointer" >
           {boxes.map((box, index) => (
             <HashLink to={`/program-kerja#${box.id}`}>
               <BoxWithSVG key={index} {...box} />

@@ -1,3 +1,4 @@
+
 import React from 'react'
 import filosofis from "../assets/filosofi.png"
 import Logo9 from "../assets/pecahan logo-09.png"
@@ -21,7 +22,7 @@ export default function AboutUs() {
 
             
             <div className='flex flex-col w-full justify-center items-center md:p-10 p-7 gap-5'>
-                <img src={filosofis} alt=""  className=' w-[500px]'/>
+                <img src={filosofis} alt=""  className=' md:w-[500px] w-[130px]'/>
 
                 <div className=' grid md:grid-cols-3 grid-cols-1 md:grid-rows-1 grid-rows-3 justify-items-center items-center w-full  md:flex-row flex-col'>
                     <div className='max-w-[250px] flex flex-col items-center justify-center gap-5'>

@@ -14,6 +14,7 @@ import PeopleScrollShowcase from '../pages/PeopleScrollShowcase'
 import Layout from '../pages/Layout'
 import RouteTransitionWrapper from '../components/RouteTransitionWrapper'
 import loadingf from '../assets/LOADING SCREEN HOMEPAGE (1).gif'
+import PartnerPage from '../pages/PartnerPage'
 
 const HomePage = lazy(() => (import('../pages/HomePage')))
 
@@ -32,7 +33,6 @@ export default function AppRoutes() {
             <Route index element={<Navigate to="/home" replace />} />
             <Route path="home" element={<HomePage />} />
 
-            {/* About Page Group */}
             <Route path="about" element={<AboutPage />}>
               <Route index element={<Sections />} />
               <Route path="about-us" element={<AboutUs />} />
@@ -45,6 +45,7 @@ export default function AppRoutes() {
             <Route path="program-kerja" element={<Proker />} />
             <Route path="service" element={<ServicePage />} />
             <Route path="people" element={<PeopleScrollShowcase />} />
+            <Route path='partner' element={<PartnerPage />}></Route>
           </Route>
         </Routes>
       </RouteTransitionWrapper>

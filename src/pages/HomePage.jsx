@@ -224,7 +224,7 @@ export default function HomePage() {
           subtitle2="Ruang Aman"
         />
 
-        <div className="w-full flex justify-center items-center sm:relative absolute lg:top-0 bottom-[45px]">
+        {/* <div className="w-full flex justify-center items-center sm:relative absolute lg:top-0 bottom-[45px]">
           <svg
             viewBox="0 0 135 336"
             fill="none"
@@ -308,8 +308,8 @@ export default function HomePage() {
                 />
               </filter>
             </defs>
-          </svg>
-        </div>
+          </svg> */}
+        {/* </div> */}
       </div>
     </div>
   );

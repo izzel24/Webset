@@ -63,7 +63,7 @@ export default function ConnectUs() {
           </div>
           <div className="relative md:h-[900px] h-[550px]">
             <div className="absolute top-0 bg-[#FDC2D6] h-[60%] rounded-tl-[100px] w-full z-99 flex flex-col justify-center items-center p-10">
-              <div className="flex flex-col text-[#334075] font-Bricolage font-semibold md:text-3xl text-xl w-1/2">
+              <div className="flex flex-col text-[#334075] font-Bricolage font-semibold lg:text-5xl md:text-4xl text-xl w-1/2 gap-2">
                 <h1>@parobemfiaub</h1>
                 <h1>@sosmafiaub</h1>
                 <h1>@rinoyabemfiaub</h1>
@@ -98,7 +98,7 @@ export default function ConnectUs() {
                 <h1 className="font-Bricolage font-extrabold text-[#334075] md:text-5xl text-3xl">
                   connect with our programs:
                 </h1>
-                <div className="flex-col font-semibold md:text-3xl text-xl text-[#334075] font-Bricolage">
+                <div className="flex-col font-semibold md:text-3xl text-xl text-[#334075] font-Bricolag">
                   <p>@dutafiabrawijaya</p>
                   <p>@rumahmoderasi_</p>
                   <p>@kitamengkaji3.0</p>
