@@ -15,6 +15,7 @@ import Layout from '../pages/Layout'
 import RouteTransitionWrapper from '../components/RouteTransitionWrapper'
 import loadingf from '../assets/LOADING SCREEN HOMEPAGE (1).gif'
 import PartnerPage from '../pages/PartnerPage'
+import PartnerLayout from '../pages/PartnerLayout'
 
 const HomePage = lazy(() => (import('../pages/HomePage')))
 
@@ -46,6 +47,7 @@ export default function AppRoutes() {
             <Route path="service" element={<ServicePage />} />
             <Route path="people" element={<PeopleScrollShowcase />} />
             <Route path='partner' element={<PartnerPage />}></Route>
+            <Route path='partner/dpm' element={<PartnerLayout/>} />
           </Route>
         </Routes>
       </RouteTransitionWrapper>

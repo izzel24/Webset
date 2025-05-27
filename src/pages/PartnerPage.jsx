@@ -38,6 +38,7 @@ import logo13 from "../assets/LOGO SSM.PNG";
 import logo14 from "../assets/Logo RSC HP.png";
 import logo15 from "../assets/LOGO AEC.png";
 import logo16 from "../assets/logo amc.png";
+import { Link } from "react-router-dom";
 
 export default function PartnerPage() {
   const [preserveAspectRatio, setPreserveAspectRatio] = useState("none");
@@ -399,7 +400,7 @@ export default function PartnerPage() {
           </div>
           <div className="relative h-full">
             <div className="absolute md:top-[10%] top-[7%] left-[50%] -translate-x-[50%] flex flex-col justify-center md:gap-28 gap-20 items-center z-10">
-              <div
+              <Link to={"/partner/dpm"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-size-[70%] bg-no-repeat bg-center"
                 style={{ backgroundImage: `url(${logo1})` }}
               />
