@@ -343,7 +343,7 @@ export default function Proker() {
         </svg>
       </section>
       <section
-        id="MaFIA-Research-n-Innovation Forum"
+        id="MaFIA-Research-n-Innovation-Forum"
         className="h-screen bg-[#98A869] relative flex justify-center"
       >
         <div className="flex flex-col justify-center items-center h-full w-[70%] gap-10">

@@ -11,46 +11,46 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function Service({ title, subtitle1, subtitle2 }) {
 
-    const subtitle1Ref = useRef();
-    const subtitle2Ref = useRef();
+    // const subtitle1Ref = useRef();
+    // const subtitle2Ref = useRef();
 
-    useEffect(() => {
-      // Subtitle 1 aktif: warna kuning saat spacer1
-      gsap.to(subtitle1Ref.current,  {
-        fill: '#F0BD51',
-        scrollTrigger: {
-          trigger: '.spacer1',
-          start: 'top center',
-          end: 'bottom bottom',
-          scrub: true,
-        },
-      });
+    // useEffect(() => {
+    //   // Subtitle 1 aktif: warna kuning saat spacer1
+    //   gsap.to(subtitle1Ref.current,  {
+    //     fill: '#F0BD51',
+    //     scrollTrigger: {
+    //       trigger: '.spacer1',
+    //       start: 'top center',
+    //       end: 'bottom bottom',
+    //       scrub: true,
+    //     },
+    //   });
   
 
-      gsap.to(subtitle1Ref.current, {
-        fill: '#ffffff',
-        scrollTrigger: {
-          trigger: '.spacer2',
-          start: 'top center',
-          end: 'bottom center',
-          scrub: true,
-        },
-      });
+    //   gsap.to(subtitle1Ref.current, {
+    //     fill: '#ffffff',
+    //     scrollTrigger: {
+    //       trigger: '.spacer2',
+    //       start: 'top center',
+    //       end: 'bottom center',
+    //       scrub: true,
+    //     },
+    //   });
   
 
-      gsap.to(subtitle2Ref.current, {
-        fill: '#F0BD51',
-        scrollTrigger: {
-          trigger: '.spacer2',
-          start: 'top center',
-          end: 'bottom center',
-          scrub: true,
-        },
-      });
-    }, []);
+    //   gsap.to(subtitle2Ref.current, {
+    //     fill: '#F0BD51',
+    //     scrollTrigger: {
+    //       trigger: '.spacer2',
+    //       start: 'top center',
+    //       end: 'bottom center',
+    //       scrub: true,
+    //     },
+    //   });
+    // }, []);
 
   return (
-    <div className='min-h-screen relative bg-[#98A869] '>
+    <div className='min-h-[200vh] relative bg-[#98A869] '>
 
       <div className="sticky top-0 h-screen w-full flex flex-col justify-center items-center">
         <div className='relative z-99 flex w-full flex-col justify-center items-center px-2'>
@@ -63,7 +63,7 @@ export default function Service({ title, subtitle1, subtitle2 }) {
             </defs>
 
             <text
-              ref={subtitle1Ref}
+              // ref={subtitle1Ref}
               x="50%"
               y="50%"
               // fontSize="150"
@@ -89,7 +89,7 @@ export default function Service({ title, subtitle1, subtitle2 }) {
             </defs>
 
             <text
-              ref={subtitle1Ref}
+              // ref={subtitle1Ref}
               x="50%"
               y="50%"
               // fontSize="40"
@@ -102,7 +102,7 @@ export default function Service({ title, subtitle1, subtitle2 }) {
               paintOrder="stroke"
               filter="url(#dropshadow)"
               >
-                <tspan>{subtitle1}</tspan>
+                <a className='svg-hover cursor-pointer' href='https://linktr.ee/AdvokesmaBEMFIAUB' target='_blank'>{subtitle1}</a>
               </text>
           </svg>
           {/* <p ref={subtitle2Ref} className="md:text-6xl text-4xl text-white text-center  font-Britania text-stroke-5 font-bold">{subtitle2}</p> */}
@@ -114,7 +114,7 @@ export default function Service({ title, subtitle1, subtitle2 }) {
             </defs>
 
             <text
-              ref={subtitle2Ref}
+              // ref={subtitle2Ref}
               x="50%"
               y="50%"
               // fontSize="40"
@@ -127,7 +127,7 @@ export default function Service({ title, subtitle1, subtitle2 }) {
               textAnchor='middle'
               filter="url(#dropshadow)"
               >
-                <tspan>{subtitle2}</tspan>
+                <a className='svg-hover cursor-pointer' href='http://bit.ly/FormPengaduanRuangAman' target='_blank'>{subtitle2}</a>
               </text>
           </svg>
         </div>
@@ -136,8 +136,8 @@ export default function Service({ title, subtitle1, subtitle2 }) {
       </div>
       
 
-      <div className="spacer1 h-screen bg-transparent relative"></div>
-      <div className="spacer2 h-screen bg-transparent relative"></div>
+      {/* <div className="spacer1 h-screen bg-transparent relative"></div>
+      <div className="spacer2 h-screen bg-transparent relative"></div> */}
     </div>
   )
 }

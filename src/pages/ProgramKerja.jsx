@@ -109,7 +109,7 @@ export default function ProgramKerja() {
         "M53.28 0.00937529L8.51989 55.1604C-14.5649 95.0925 8.52037 187.189 86.85 140.394L141.402 76.8865V177.161C154.528 222.149 214.137 257.381 247.707 177.161V76.8865L309.252 145.407C337.638 157.869 349.588 154.348 368 140.394V59.0094C368 13.5094 333.272 -0.415395 309.5 0.00937529H53.28Z",
       fillColor: "#FDC2D6",
       title: "MaFIA Research n Innovation Forum (Marinovation)",
-      id:"MaFIA-Research-n-Innovation Forum"
+      id:"MaFIA-Research-n-Innovation-Forum"
     },
     {
       bgColor: "#FDC2D6",

@@ -3,7 +3,7 @@ import line from '../assets/linePink.svg'
 
 export default function ServicePage() {
   return (
-    <div className='bg-[#98A869] min-h-screen flex flex-col items-center'>
+    <div className='bg-[#98A869] min-h-screen flex flex-col items-center py-20'>
       
       <section className='relative flex items-center justify-center w-full min-h-screen'>
         <svg width="100%" className='lg:h-[140px] md:h-[118px] sm:h-[94px] h-[82px] relative z-99'>
@@ -36,8 +36,8 @@ export default function ServicePage() {
         />
       </section>
 
-      <div className='flex flex-col justify-center items-center gap-10 px-4 md:px-12 pb-20 w-full max-w-6xl'>
-        <div className='flex flex-col justify-center items-center md:gap-20 gap-10 md:p-12 p-7'>
+      <div className='flex flex-col justify-center items-center gap-20 px-4 md:px-12 pb-20 w-full max-w-6xl'>
+        <div className='flex flex-col justify-center items-center md:gap-10 gap-5 md:p-12 p-7'>
           {/* <h2 className='md:text-6xl text-4xl text-white text-center font-Britania font-bold text-stroke-5'>
             Integrated System Advo
           </h2> */}
@@ -69,7 +69,7 @@ export default function ServicePage() {
           <a className='font-Bricolage text-xl font-semibold bg-[#FDC2D6] p-2 px-10 rounded-4xl cursor-pointer' href='https://linktr.ee/AdvokesmaBEMFIAUB' target='_blank' rel="noopener noreferrer" >Click Here</a>
         </div>
 
-        <div className='flex flex-col justify-center items-center gap-20 md:p-12 p-7'>
+        <div className='flex flex-col justify-center items-center gap-10 md:p-12 p-7'>
           <svg width="100%" height="70">
             <defs>
               <filter id="dropshadow1">

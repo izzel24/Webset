@@ -119,7 +119,7 @@ const groupedImages = [
     },
     {
       src: person8,
-      name: "Syadita Geroldin",
+      name: "Khansa Afifahx",
       role: "Deputi Keuangan Internal",
       major: "Administrasi Bisnis 2023",
     },
@@ -423,33 +423,76 @@ const topIcons = [
 ];
 const bottomIcons = [people8, people9, people10, people11, people12, people13, people14];
 
-export default function PeopleScrollShowcase() {
+const PeopleScrollShowcase = () => {
   const containerRef = useRef(null);
   const [activeGroup, setActiveGroup] = useState(0);
+  const [preloadedImages, setPreloadedImages] = useState(new Set());
   const totalSteps = groupedImages.length;
+
+  // Preload images for a specific section
+  const preloadImagesForSection = (sectionIndex) => {
+    if (!groupedImages[sectionIndex] || preloadedImages.has(sectionIndex)) return;
+    
+    const newPreloadedImages = new Set(preloadedImages);
+    newPreloadedImages.add(sectionIndex);
+    setPreloadedImages(newPreloadedImages);
+
+    groupedImages[sectionIndex].forEach(person => {
+      const img = new Image();
+      img.src = person.src;
+    });
+  };
+
+  // Preload adjacent sections
+  useEffect(() => {
+    // Preload current section if not already loaded
+    preloadImagesForSection(activeGroup);
+    
+    // Preload next section
+    if (activeGroup < totalSteps - 1) {
+      preloadImagesForSection(activeGroup + 1);
+    }
+    
+    // Preload previous section
+    if (activeGroup > 0) {
+      preloadImagesForSection(activeGroup - 1);
+    }
+  }, [activeGroup]);
+
+  const scrollToSection = (index) => {
+    const stepHeight = window.innerHeight;
+    const targetScroll = index * stepHeight;
+    window.scrollTo({
+      top: targetScroll,
+      behavior: 'smooth'
+    });
+  };
 
   useEffect(() => {
     const handleScroll = () => {
-      const offsetTop = containerRef.current.offsetTop;
+      if (!containerRef.current) return;
+      
       const scrollY = window.scrollY;
       const stepHeight = window.innerHeight;
-      const relativeScroll = scrollY - offsetTop;
-
+      
       const index = Math.min(
         totalSteps - 1,
-        Math.max(0, Math.round(relativeScroll / stepHeight))
+        Math.max(0, Math.round(scrollY / stepHeight))
       );
-      setActiveGroup(index);
+      
+      if (index !== activeGroup) {
+        setActiveGroup(index);
+      }
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [activeGroup, totalSteps]);
 
   const getGridClass = (count) => {
-    if (count === 3) return "grid-cols-2 grid-rows-2";
-    if (count === 4) return "grid-cols-2 grid-rows-2";
-    if (count === 2) return "grid-cols-2 grid-rows-2";
+    if (count === 3) return "grid-cols-2 sm:grid-cols-3 grid-rows-2 sm:grid-rows-1";
+    if (count === 4) return "grid-cols-2 sm:grid-cols-4 grid-rows-2 sm:grid-rows-1";
+    if (count === 2) return "grid-cols-2 grid-rows-2 sm:grid-rows-1 ";
     return "grid-cols-1";
   };
 
@@ -463,22 +506,22 @@ export default function PeopleScrollShowcase() {
         <h1 className="text-4xl z-30 font-EB-Garamond font-semibold italic">
           People Behind
         </h1>
-
-        <div className="flex md:gap-10 gap-5 mb-auto z-20 justify-center items-center">
+        <div className="flex sm:gap-10 gap-5 mb-auto z-20 justify-center items-center">
           {topIcons.map((icon, i) => (
             <div
               key={i}
-              className={` transition-all duration-300  ${
+              onClick={() => scrollToSection(i)}
+              className={`transition-all duration-300 cursor-pointer ${
                 i === activeGroup
-                  ? "text-yellow-500 scale-125"
-                  : "text-gray-400"
+                  ? "scale-125"
+                  : "hover:scale-125"
               }`}
             >
               <img
                 src={icon}
                 alt=""
-                // width={35}
-                className={`transition-all duration-300 md:w-[35px] w-[25px] ${
+                loading="lazy"
+                className={`transition-all duration-300 sm:w-[35px] w-[25px] ${
                   i === activeGroup ? "filter brightness-0" : ""
                 }`}
               />
@@ -503,14 +546,14 @@ export default function PeopleScrollShowcase() {
                 damping: 20,
                 when: "beforeChildren",
               }}
-              className={`absolute grid items-center gap-5 justify-items-center  ${getGridClass(
+              className={`absolute grid items-center gap-5 sm:gap-10 justify-items-center ${getGridClass(
                 groupedImages[activeGroup].length
               )}`}
             >
               {groupedImages[activeGroup].map((person, i) => {
                 let extraClass = "";
                 if (groupedImages[activeGroup].length === 3 && i === 0) {
-                  extraClass = "col-span-2 flex justify-center";
+                  extraClass = "col-span-2 sm:col-span-1 flex justify-center";
                 }
                 return (
                   <div
@@ -520,17 +563,19 @@ export default function PeopleScrollShowcase() {
                     <img
                       src={person.src}
                       alt={person.name}
-                      className="lg:h-[140px] h-[135px] object-contain rounded-xl"
+                      loading="lazy"
+                      decoding="async"
+                      className="lg:h-[200px] h-[135px] object-contain rounded-xl"
                     />
                     <div className="mt-2 flex flex-col text-center">
-                      <h2 className="md:text-xl text-lg font-semibold italic font-EB-Garamond">
+                      <h2 className="sm:text-xl text-lg font-semibold italic font-EB-Garamond">
                         {person.name}
                       </h2>
                       <div className="flex flex-col gap-1">
-                        <p className="md:text-sm text-xs font-Bricolage md:w-[250px] w-[150px] font-extralight">
+                        <p className="sm:text-sm text-xs font-Bricolage sm:w-[250px] w-[150px] font-extralight">
                           {person.role}
                         </p>
-                        <p className="md:text-xs text-[8px] bg-black md:w-[180px] w-[125px] self-center text-white font-Bricolage font-extralight py-[1px] px-2">
+                        <p className="sm:text-xs text-[8px] bg-black sm:w-[180px] w-[125px] self-center text-white font-Bricolage font-extralight py-[1px] px-2">
                           {person.major}
                         </p>
                       </div>
@@ -542,21 +587,22 @@ export default function PeopleScrollShowcase() {
           </AnimatePresence>
         </div>
 
-        <div className="flex md:gap-10 gap-5 mt-auto justify-center items-center  z-20">
+        <div className="flex sm:gap-10 gap-5 mt-auto justify-center items-center z-20">
           {bottomIcons.map((icon, index) => (
             <div
               key={index}
-              className={`text-4xl transition-all duration-300 ${
+              onClick={() => scrollToSection(index + bottomIcons.length)}
+              className={`text-4xl transition-all duration-300 cursor-pointer ${
                 index + bottomIcons.length === activeGroup
-                  ? "text-blue-500 scale-125"
-                  : "text-gray-400"
+                  ? "scale-125"
+                  : "hover:scale-125"
               }`}
             >
              <img
                 src={icon}
                 alt=""
-                // width={35}
-                className={`transition-all duration-300 md:w-[35px] w-[25px]  ${
+                loading="lazy"
+                className={`transition-all duration-300 sm:w-[35px] w-[25px] ${
                   index + 7 === activeGroup ? "filter brightness-0" : ""
                 }`}
               />
@@ -567,3 +613,5 @@ export default function PeopleScrollShowcase() {
     </div>
   );
 }
+
+export default PeopleScrollShowcase;

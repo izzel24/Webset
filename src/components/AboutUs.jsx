@@ -60,7 +60,7 @@ export default function AboutUs() {
                
                 <img src={line} alt="" className='w-full absolute lg:top-0 z-10 sm:top-0 top-[25%]' />
 
-                <div className='flex flex-col gap-5 lg:mt-20 mt-0 md:p-10 p-7 items-end w-full relative z-99'>
+                <div className='flex flex-col gap-5 lg:mt-36 mt-0 md:p-10 p-7 items-end w-full relative z-99'>
                     <img src={title3} alt="" className='w-[450px]'/>
                     <span className='font-Britania text-[#98A869] xl:text-7xl lg:text-6xl md:text-4xl sm:text-2xl text-xl lg:max-w-[800px] md:max-w-[550px] sm:max-w-[400px] max-w-[200px] text-end'>Ing Ngarsa Sung Tuladha, Ing Madya Mangun Karsa, Tutwuri Handayani</span>
                 </div>

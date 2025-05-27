@@ -12,7 +12,7 @@ export default function RouteTransitionWrapper({ children }) {
       window.scrollTo(0, 0)
       return
     }
-    else if(location.pathname === '/program-kerja'){
+    else if(location.pathname === '/program-kerja' || location.pathname === "/about/about-us" || location.pathname === "/about/visi&misi" || location.pathname === "/about/arahan-strategis"){
         setLoading(false)
         return
     }

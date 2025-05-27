@@ -8,7 +8,7 @@ export default function Layout() {
   return (
     <>
         <Navbar />
-        <div className='relative'>
+        <div className='relative '>
           <Outlet />
 
     <div className='mt-auto'>

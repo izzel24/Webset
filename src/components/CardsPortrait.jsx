@@ -1,5 +1,6 @@
 import React from 'react'
 import "../cardMobileStyle.css"
+import { HashLink } from 'react-router-hash-link'
 
 export default function CardsPortrait({cards=[]}) {
 
@@ -9,7 +10,7 @@ export default function CardsPortrait({cards=[]}) {
     <div className="containerd">
       <ul id="cards">
         {cards.map((card, index) => (
-          <li className="card1" key={index} id={`card${index + 1}`}>
+          <HashLink to={`/program-kerja#${card.url}`} className="card1" key={index} id={`card${index + 1}`}>
             <div className="card-body1 flex flex-col justify-start bg-white border-3">
               <div
                 className="w-full h-[80%] flex justify-center items-center p-5 rounded-[16px] border-[1.5px] border-b-3"
@@ -21,7 +22,7 @@ export default function CardsPortrait({cards=[]}) {
                 <h2 className='font-Bricolage font-extrabold text-[16px] text-center p-2'>{card.body}</h2>
               </div>
             </div>
-          </li>
+          </HashLink>
         ))}
       </ul>
     </div>

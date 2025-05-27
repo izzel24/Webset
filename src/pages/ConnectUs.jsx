@@ -10,7 +10,7 @@ import call from "../assets/Call--Streamline-Ionic-Filled.svg.svg";
 
 export default function ConnectUs() {
   return (
-    <div className="min-w-[330px] bg-[#334075] h-full">
+    <div className="min-w-[330px] bg-[#334075] h-full pt-10">
       <div className="bg-[#334075] min-h-screen py-10 pb-84">
         <div className="min-h-screen flex flex-col">
           <div className="relative md:h-[800px] h-[450px]">
@@ -18,39 +18,39 @@ export default function ConnectUs() {
               <div className=" flex flex-col w-[70%] md:gap-5 gap-2">
                 <div className="flex items-center gap-5">
                   <img src={ig} alt="" className="md:w-[45px] w-[25px]" />
-                  <p className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
-                    bemfiaub
-                  </p>
+                  <a href="https://www.instagram.com/bemfiaub?igsh=MXEzMWg4NHg4dTY3Mw==" target="_balnk" className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
+                    <u>bemfiaub</u>
+                  </a>
                 </div>
                 <div className="flex  items-center gap-5">
                   <img src={tiktok} alt="" className="md:w-[45px] w-[25px]" />
-                  <p className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
-                    bemfiaub
-                  </p>
+                  <a href="https://www.tiktok.com/@bemfiaub?_t=ZS-8wgJhET2fkC&_r=1" target="_balnk" className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
+                    <u>bemfiaub</u>
+                  </a>
                 </div>
                 <div className="flex  items-center gap-5">
                   <img src={x} alt="" className="md:w-[45px] w-[25px]" />
-                  <p className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
-                    BEMFIAUB_
-                  </p>
+                  <a href=" https://x.com/bemfiaub_?s=21&t=ifT079ImiuwBck1S1Dsxdw" target="_balnk" className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
+                    <u>BEMFIAUB_</u>
+                  </a>
                 </div>
                 <div className="flex  items-center gap-5">
                   <img src={linkedin} alt="" className="md:w-[45px] w-[25px]" />
-                  <p className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
-                    bemfiaub
-                  </p>
+                  <a href="https://www.linkedin.com/company/badan-eksekutif-mahasiswa-fia-ub/" target="_balnk" className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
+                    <u>bemfiaub</u>
+                  </a>
                 </div>
                 <div className="flex r items-center gap-5">
                   <img src={yt} alt="" className="md:w-[45px] w-[25px]" />
-                  <p className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
-                    bemfiaub
-                  </p>
+                  <a href="https://youtube.com/@bemfiaub2078?si=5wuLNB__1ujOguji" target="_balnk" className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
+                    <u>bemfiaub</u>
+                  </a>
                 </div>
                 <div className="flex items-center gap-5">
                   <img src={spotify} alt="" className="md:w-[45px] w-[30px]" />
-                  <p className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
-                    bemfiaub
-                  </p>
+                  <a href="https://open.spotify.com/artist/18870MR7xHlX180k7GQeXh?si=bYsbtVMzRgK2iHAqcs_vDA" target="_balnk" className="text-[#334075] font-semibold font-Bricolage md:text-5xl text-lg">
+                    <u>bemfiaub</u>
+                  </a>
                 </div>
               </div>
             </div>
