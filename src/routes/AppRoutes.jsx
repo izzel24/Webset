@@ -2,7 +2,7 @@ import React, { lazy, Suspense, useEffect, useState } from 'react'
 import { Route, Routes, Navigate, useLocation } from 'react-router-dom'
 
 import AboutPage from '../pages/AboutPage'
-import Sections from '../components/sections'
+import Sections from '../components/Sections'
 import AboutUs from '../components/AboutUs'
 import VisiMisi from '../components/VisiMisi'
 import ArahanStrategis from '../components/ArahanStrategis'
