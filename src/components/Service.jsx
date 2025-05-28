@@ -1,15 +1,10 @@
 import pinkBottom from "../assets/pinkLinBottom.svg"
-
 import "../service.css"
-import gsap from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(ScrollTrigger);
 
 export default function Service({ title, subtitle1, subtitle2 }) {
 
   return (
-    <div className='min-h-[200vh] relative bg-[#98A869] '>
+    <div className='min-h-screen relative bg-[#98A869] '>
 
       <div className="sticky top-0 h-screen w-full flex flex-col justify-center items-center">
         <div className='relative z-99 flex w-full flex-col justify-center items-center px-2'>
@@ -86,7 +81,7 @@ export default function Service({ title, subtitle1, subtitle2 }) {
       
 
       {/* {/* <div className="spacer1 h-screen bg-transparent relative"></div> */}
-      {/* <div className="spacer2 h-screen bg-transparent relative z-50"></div> */}
+      <div className="spacer2 h-screen bg-transparent relative z-50 pointer-events-none"></div>
     </div>
   )
 }
