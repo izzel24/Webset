@@ -4,7 +4,7 @@ import yellowLine from "../assets/yellowLine.svg";
 import yellowLine2 from "../assets/yellowLine2.svg";
 import blueLine from "../assets/blueLine.svg";
 
-import Card from "../components/card";
+import Card from "../components/Card";
 
 import "swiper/css";
 import "swiper/css/effect-coverflow";
