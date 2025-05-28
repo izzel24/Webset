@@ -13,7 +13,6 @@ import "swiper/css/pagination";
 import Sliders from "../components/Sliders";
 import LogoMarquee from "../components/LogoMarquee";
 import Service from "../components/Service";
-import Footer from "../components/Footer";
 import CardsPortrait from "../components/CardsPortrait";
 import Navbar from "../components/Navbar";
 import star from "../assets/Group 19.svg";
