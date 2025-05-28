@@ -6,14 +6,13 @@ import Footer from '../components/Footer'
 export default function Layout() {
 
   return (
-    <>
+    <div className='flex flex-col min-h-screen'>
         <Navbar />
-        <div className='relative '>
+        <div className='flex-grow '>
           <Outlet />
+        </div>
 
-    <div className='mt-auto'>
-
-   
+    <div className='mt-auto relative'>
         <div className="w-full flex justify-center items-center sm:relative relative lg:top-0 bottom-[45px]">
           <svg
             viewBox="0 0 135 336"
@@ -105,7 +104,7 @@ export default function Layout() {
           viewBox="0 0 1920 399"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-full absolute sm:bottom-[100px] bottom-[95px] "
+          className="w-full absolute sm:bottom-[100px] bottom-[95px] z-10 "
         >
           <path
             d="M1920 399H0V0C0.00146804 134.058 429.808 242.733 960 242.733C1490.19 242.733 1920 134.058 1920 0V399Z"
@@ -115,7 +114,5 @@ export default function Layout() {
          <Footer />
           </div>
       </div>
-     
-    </>
   )
 }
