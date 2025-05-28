@@ -68,10 +68,10 @@ export default function AboutUs() {
 
             
 
-            <div className="absolute top-0 left-0 right-0 h-1 mx-5 rounded-2xl bg-white" />
-            <div className="absolute bottom-0 left-0 right-0 h-1 mx-5 bg-white rounded-2xl" />
-            <div className="absolute top-2 left-0 bottom-2 w-1 my-5 rounded-2xl bg-white" />
-            <div className="absolute top-2 right-0 bottom-2 w-1 my-5 rounded-2xl bg-white" />
+            <div className="absolute top-0 left-0 right-0 h-1 mx-5 rounded-2xl bg-white z-99" />
+            <div className="absolute bottom-0 left-0 right-0 h-1 mx-5 bg-white rounded-2xl z-99" />
+            <div className="absolute top-2 left-0 bottom-2 w-1 my-5 rounded-2xl bg-white z-99" />
+            <div className="absolute top-2 right-0 bottom-2 w-1 my-5 rounded-2xl bg-white z-99" />
         </div>
     </div>
   )

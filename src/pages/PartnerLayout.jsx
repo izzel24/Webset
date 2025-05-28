@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import dpm from "../assets/LOGO DPM.png";
+import { Outlet } from "react-router-dom";
 
 export default function PartnerLayout() {
   const [preserveAspectRatio, setPreserveAspectRatio] = useState("none");
@@ -19,16 +19,16 @@ export default function PartnerLayout() {
   }, []);
 
   return (
-    <div className="min-h-screen mb-48 py-20">
+    <div className="min-h-screen mb-16 py-20">
       <div className="flex flex-col relative">
         {/* Bagian SVG background */}
        <svg
           width="100%"
-          height="200"
+          // height="70"
           viewBox="0 0 1920 116"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="absolute top-0"
+          className="absolute lg:-top-16 -top-10 lg:h-[116px] h-[70px]"
         >
           <path
             d="M-61 78.9744C-61 35.358 -25.642 0 17.9744 0C61.5907 0 96.9487 35.358 96.9487 78.9744V115.451H-61V78.9744Z"
@@ -85,46 +85,22 @@ export default function PartnerLayout() {
         </svg>
 
         {/* Bagian hijau besar */}
-        <div className="md:h-[200vh] h-screen bg-[#98A869] relative">
+        <div className="sm:h-[250vh] h-screen bg-[#98A869] relative">
           {/* SVG garis lengkung */}
           <svg
-            className="absolute top-[20%] left-0 w-full md:h-[800px] h-[350px]"
+            className="absolute top-[20%] left-0 w-full lg:h-[1000px] md:h-[700px] h-[500px]"
             viewBox="0 0 1920 1088"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio={preserveAspectRatio}
           >
-            <path
-              d="M-326 20H281.851C507.366 20.4861 613.57 20 613.57 93.6541V975.914C617.89 1053.36 691.895 1071.1 921.978 1067.58H2321"
-              stroke="#334075"
-              strokeWidth="40"
-            />
+            <path d="M-297 20H350.119C590.203 20.4861 703.267 20 703.267 93.6541V975.914C707.867 1053.36 786.652 1071.1 1031.6 1067.58H2521" stroke="#334075" stroke-width="40"/>
+
           </svg>
 
-          <div className="w-full flex">
-            <div
-              className="absolute md:w-48 md:h-48 w-20 h-20 rounded-full bg-white bg-center bg-size-[70%] bg-no-repeat top-[25%] md:left-[30%] left-[50%] md:-translate-x-16 -translate-x-[152px]"
-              style={{ backgroundImage: `url(${dpm})` }}
-            ></div>
-            <div className="flex flex-col gap-10 ml-20 p-10 absolute top-[25%] left-1/3">
-              <h1 className="font-Bricolage text-[#334075] font-extrabold text-6xl">
-                DPM FIA UB
-              </h1>
-              <p className="md:w-[50%] font-Bricolage font-medium text-xl text-[#334075]">
-                DPM FIA UB merupakan lembaga yang tergabung dalam LKM FIA UB
-                yang memiliki fungsi legislasi, anggaran, dan pengawasan. DPM
-                FIA UB memiliki peran menjembatani kepentingan mahasiswa kepada
-                dekanat, lembaga, dan sesama mahasiswa yang diwujudkan melalui
-                aspirasi, keluhan, dan kejelasan informasi. DPM FIA UB memiliki
-                3 (tiga) komisi yang membantu tugas pokok dan fungsi yang
-                bertanggungjawab kepada publik yaitu Advokasi, Undang-Undang,
-                dan Kelembagaan.
-              </p>
-              <p className="font-Bricolage font-medium text-xl text-[#334075]">Instagram: <a href="https://www.instagram.com/dpmfiaub_/" target="_blank"><u>dpmfiaub_</u></a></p>
-            </div>
-          </div>
+          <Outlet />
           
-        <svg width="100%" height="200" viewBox="0 0 1920 116" fill="none" xmlns="http://www.w3.org/2000/svg" className='absolute bottom-0'>
+        <svg width="100%" viewBox="0 0 1920 116" fill="none" xmlns="http://www.w3.org/2000/svg" className='absolute bottom-0 md:translate-y-16 translate-y-7 md:h-[116px] h-[50px]'>
             <path d="M-61 36.4768C-61 80.0931 -25.642 115.451 17.9744 115.451C61.5907 115.451 96.9487 80.0931 96.9487 36.4768V0.000488281H-61V36.4768Z" fill="#98A869"/>
             <path d="M410 36.4768C410 80.0931 445.358 115.451 488.974 115.451C532.591 115.451 567.949 80.0931 567.949 36.4768V0.000488281H410V36.4768Z" fill="#98A869"/>
             <path d="M881 36.4768C881 80.0931 916.358 115.451 959.974 115.451C1003.59 115.451 1038.95 80.0931 1038.95 36.4768V0.000488281H881V36.4768Z" fill="#98A869"/>

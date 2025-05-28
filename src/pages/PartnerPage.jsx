@@ -59,7 +59,7 @@ export default function PartnerPage() {
 
   return (
     <div className="min-h-screen overflow-hidden">
-      <div className="min-h-screen relative">
+      <div className="min-h-screen relative py-10">
         {/* <img src={green} alt="" className='absolute h-full w-full sm:flex hidden'/> */}
         <svg width="100%" height="160" className="relative z-99">
           <defs>
@@ -128,72 +128,72 @@ export default function PartnerPage() {
 
         <div className="flex flex-col xl:gap-20 md:gap-14 gap-10 relative z-99 md:p-5 p-2">
           <div className="grid grid-cols-4 justify-items-center items-center">
-            <div
+            <a href="https://www.instagram.com/oyi.buttermilk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${oyi})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/kofukubento?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${kofuku})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/selfroomstudio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${selfroom})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/k70.kopi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${k70})` }}
-            ></div>
+            ></a>
           </div>
           <div className="grid grid-cols-4 justify-items-center items-center">
-            <div
+            <a href="https://www.instagram.com/esize.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${esize})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/athome.space?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${athome})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/jahitansurabaya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${vessewing})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/hts.in_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${htsin})` }}
-            ></div>
+            ></a>
           </div>
           <div className="grid grid-cols-4 justify-items-center items-center">
-            <div
+            <a href="https://www.instagram.com/gece_barbershop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${gece})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/komu.space?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${komu})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/shoesandcaremalang?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${shoesandcare})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/ksm.mlg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${ksm})` }}
-            ></div>
+            ></a>
           </div>
           <div className="grid grid-cols-4 justify-items-center items-center relative">
-            <div
+            <a href="https://www.instagram.com/kopisisilain.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${kopisisilain})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/anasera.mlg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${anasera})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/jolotundo.dkos?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px] bg-white  bg-size-[80%] bg-no-repeat bg-center dropShadow"
               style={{ backgroundImage: `url(${jolotundo})` }}
-            ></div>
+            ></a>
             {/* <div className='rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow' style={{backgroundImage: `url(${ksm})`}}></div> */}
           </div>
         </div>
@@ -235,40 +235,40 @@ export default function PartnerPage() {
 
         <div className="flex flex-col h-full justify-center md:gap-20 gap-20 relative z-99 md:p-5 p-2">
           <div className="grid grid-cols-4 justify-items-center items-center">
-            <div
+            <a href="https://www.instagram.com/fkaub.id?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${fkaub})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/forkimofficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${forkim})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/girlupbrawijaya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${girlup})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/kmkfia_angelus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${kmk})` }}
-            ></div>
+            ></a>
           </div>
           <div className="grid grid-cols-4 justify-items-center items-center">
-            <div
+            <a href="https://www.instagram.com/pmkgamaliel?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${pmk})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/uakkatub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${totus})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/uakiub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${uaki})` }}
-            ></div>
-            <div
+            ></a>
+            <a href="https://www.instagram.com/unikahidha?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"
               className="rounded-full xl:h-[120px] xl:w-[120px] lg:w-[100px] lg:h-[100px] md:w-[80px] md:h-[80px] w-[60px] h-[60px]  bg-cover dropShadow"
               style={{ backgroundImage: `url(${unikahidha})` }}
-            ></div>
+            ></a>
           </div>
         </div>
       </div>
@@ -404,66 +404,66 @@ export default function PartnerPage() {
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-size-[70%] bg-no-repeat bg-center"
                 style={{ backgroundImage: `url(${logo1})` }}
               />
-              <div
+              <Link to={"/partner/humanistik"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-cover bg-no-repeat bg-center"
                 style={{ backgroundImage: `url(${logo2})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/himabis"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-cover bg-center"
                 style={{ backgroundImage: `url(${logo3})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/himapajak"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-cover bg-center"
                 style={{ backgroundImage: `url(${logo4})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/himapar"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-cover bg-center"
                 style={{ backgroundImage: `url(${logo5})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/himadika"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-cover bg-center"
                 style={{ backgroundImage: `url(${logo6})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/hmpip"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-center bg-size-[85%] bg-no-repeat"
                 style={{ backgroundImage: `url(${logo7})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/mafioso"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-size-[85%] bg-no-repeat bg-center"
                 style={{ backgroundImage: `url(${logo8})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/sec"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-size-[70%] bg-no-repeat bg-center"
                 style={{ backgroundImage: `url(${logo9})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/forkim"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-cover bg-center"
                 style={{ backgroundImage: `url(${logo10})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/ac"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-size-[70%] bg-no-repeat bg-center"
                 style={{ backgroundImage: `url(${logo11})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/dianns"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-size-[70%] bg-no-repeat bg-center"
                 style={{ backgroundImage: `url(${logo12})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/ssm"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-size-[70%] bg-no-repeat bg-center"
                 style={{ backgroundImage: `url(${logo13})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/rsc"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-size-[70%] bg-no-repeat bg-center"
                 style={{ backgroundImage: `url(${logo14})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/aec"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-size-[80%] bg-no-repeat bg-center"
                 style={{ backgroundImage: `url(${logo15})` }}
-              ></div>
-              <div
+              ></Link>
+              <Link to={"/partner/amc"}
                 className="bg-white rounded-full md:h-40 md:w-40 h-24 w-24 bg-cover bg-center"
                 style={{ backgroundImage: `url(${logo16})` }}
-              ></div>
+              ></Link>
             </div>
 
             {/* <div className='h-[20%]  border-r-[50px] border-t-[50px] absolute left-0 top-0 w-[50%] border-[#334075] rounded-tr-full'></div>

@@ -119,7 +119,7 @@ const groupedImages = [
     },
     {
       src: person8,
-      name: "Khansa Afifahx",
+      name: "Khansa Afifah",
       role: "Deputi Keuangan Internal",
       major: "Administrasi Bisnis 2023",
     },
@@ -499,7 +499,7 @@ const PeopleScrollShowcase = () => {
   return (
     <div
       ref={containerRef}
-      className="relative mb-84"
+      className="relative md:mb-84 mb-48"
       style={{ height: `${totalSteps * 100}dvh` }}
     >
       <div className="sticky top-0 h-screen bg-white flex flex-col justify-center gap-10 items-center overflow-hidden p-5">

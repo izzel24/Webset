@@ -126,7 +126,7 @@ export default function ProgramKerja() {
   return (
     <div className="min-h-screen flex justify-center p-20 mb-84">
       <div className="h-full w-full flex flex-col justify-center items-center gap-5">
-        <h1 className="bg-gradient-to-r from-[#334075] to-[#5F78DB] inline-block text-transparent bg-clip-text font-Bricolage font-extrabold xl:text-7xl lg:text-6xl md:text-4xl sm:text-3xl text-2xl text-center">
+        <h1 className="bg-gradient-to-r from-[#334075] to-[#5F78DB] inline-block text-transparent bg-clip-text font-Bricolage font-extrabold xl:text-7xl lg:text-6xl md:text-4xl sm:text-3xl text-3xl text-center">
           Program Kerja Unggulan
         </h1>
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 w-full justify-items-center items-center cursor-pointer" >

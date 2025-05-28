@@ -55,11 +55,11 @@ export default function HomePage() {
         />
         <div className="flex flex-col justify-center items-center w-full">
           <div className=" relative w-full flex justify-center gap-2 ">
-            <span className="font-Bricolage lg:text-8xl md:text-5xl text-2xl text-white z-99 text-center">
+            <span className="font-Bricolage lg:text-8xl md:text-5xl text-2xl text-white z-50 text-center">
               Welcome to <span className="font-extrabold">BEM FIA UB 2025</span>
             </span>
           </div>
-          <h1 className="font-Bricolage lg:text-6xl md:text-3xl text-xl text-white z-99">
+          <h1 className="font-Bricolage lg:text-6xl md:text-3xl text-xl text-white z-50">
             Kabinet Tumbuh Bersama
           </h1>
         </div>
@@ -70,7 +70,7 @@ export default function HomePage() {
       <div className="min-h-screen relative flex items-center flex-col justify-center gap-10">
         <svg width="100%" height="160" className="relative z-99">
           <defs>
-            <filter id="dropshadow">
+            <filter id="dropshadow1">
               <feDropShadow
                 dx="2"
                 dy="2.5"
@@ -91,7 +91,12 @@ export default function HomePage() {
             fill="#334075"
             textAnchor="middle"
             paintOrder="stroke"
-            filter="url(#dropshadow)"
+            style={{
+      filter:
+        window.innerWidth <= 640
+          ? ''
+          : 'url(#dropshadow1)',
+    }}
           >
             <tspan className="font-extrabold text-4xl sm:text-6xl lg:text-8xl md:text-7xl">
               Program Kerja{" "}
@@ -178,7 +183,7 @@ export default function HomePage() {
           )}
         </div>
       </div>
-      <div className="min-h-screen relative flex flex-col justify-center items-center gap-10">
+      <div className="min-h-screen relative flex flex-col justify-center items-center gap-10 lg:mb-40 mb-20">
         <svg width="100%" height="160" className="relative z-99">
           <defs>
             <filter id="dropshadow">
@@ -202,7 +207,12 @@ export default function HomePage() {
             fill="#FDC2D6"
             textAnchor="middle"
             paintOrder="stroke"
-            filter="url(#dropshadow)"
+            style={{
+              filter:
+                window.innerWidth <= 640
+                  ? ''
+                  : 'url(#dropshadow)',
+            }}
           >
             <tspan className="font-extrabold lg:text-9xl sm:text-5xl text-4xl">
               NEWS{" "}

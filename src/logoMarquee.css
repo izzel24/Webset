@@ -11,8 +11,8 @@
 
 .slide-track{
     display: flex;
-    width: calc(250px * 20);
-    animation: scroll 20s linear infinite;
+    width: calc(250px * 30);
+    animation: scroll 25s linear infinite;
     position: relative;
     z-index: 99;
 }
@@ -27,7 +27,7 @@
         transform: translateX(0);
     }
     100%{
-        transform: translateX(calc(-250px*10));
+        transform: translateX(calc(-250px*15));
     }
 }
 
@@ -51,8 +51,8 @@
 
 @media (max-width: 600px) {
   .slide-track {
-    width: calc(90px * 20);
-    animation: scroll-mobile 20s linear infinite;
+    width: calc(90px * 30);
+    animation: scroll-mobile 25s linear infinite;
   }
 
   @keyframes scroll-mobile {
@@ -60,7 +60,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-90px * 10));
+      transform: translateX(calc(-90px * 15));
     }
   }
 }

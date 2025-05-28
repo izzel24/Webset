@@ -64,14 +64,14 @@ export default function ConnectUs() {
           <div className="relative md:h-[900px] h-[550px]">
             <div className="absolute top-0 bg-[#FDC2D6] h-[60%] rounded-tl-[100px] w-full z-99 flex flex-col justify-center items-center p-10">
               <div className="flex flex-col text-[#334075] font-Bricolage font-semibold lg:text-5xl md:text-4xl text-xl w-1/2 gap-2">
-                <h1>@parobemfiaub</h1>
-                <h1>@sosmafiaub</h1>
-                <h1>@rinoyabemfiaub</h1>
-                <h1>@kastrat_bemfiaub</h1>
-                <h1>@advokesma_bemfiaub</h1>
-                <h1>@kemenag.fiaub</h1>
-                <h1>@pugbemfia</h1>
-                <h1>@pmbemfiaub</h1>
+                <a href="https://www.instagram.com/parobemfiaub/" target="_blank">@parobemfiaub</a>
+                <a href="https://www.instagram.com/sosmafiaub/" target="_blank">@sosmafiaub</a>
+                <a href="https://www.instagram.com/rinoyabemfiaub/" target="_blank">@rinoyabemfiaub</a>
+                <a href="https://www.instagram.com/kastrat_bemfiaub/" target="_blank">@kastrat_bemfiaub</a>
+                <a href="https://www.instagram.com/advokesma_bemfiaub/" target="_blank">@advokesma_bemfiaub</a>
+                <a href="https://www.instagram.com/kemenag.fiaub/" target="_blank">@kemenag.fiaub</a>
+                <a href="https://www.instagram.com/pugbemfia/" target="_blank">@pugbemfia</a>
+                <a href="https://www.instagram.com/pmbemfiaub/" target="_blank">@pmbemfiaub</a>
               </div>
             </div>
             <div className="absolute left-0 w-[50%] h-full bg-[#FDC2D6] rounded-tl-[100px] "></div>
@@ -98,23 +98,23 @@ export default function ConnectUs() {
                 <h1 className="font-Bricolage font-extrabold text-[#334075] md:text-5xl text-3xl">
                   connect with our programs:
                 </h1>
-                <div className="flex-col font-semibold md:text-3xl text-xl text-[#334075] font-Bricolag">
-                  <p>@dutafiabrawijaya</p>
-                  <p>@rumahmoderasi_</p>
-                  <p>@kitamengkaji3.0</p>
-                  <p>@seiken.id</p>
-                  <p>@minsight2025</p>
-                  <p>@mataprojectt</p>
-                  <p>@mafiagfast</p>
-                  <p>@masimpact</p>
-                  <p>@masivecamp</p>
-                  <p>@mafiainstitute</p>
-                  <p>@mbsummit_</p>
-                  <p>@impactt2025</p>
-                  <p>@marinovation_</p>
+                <div className="flex flex-col font-semibold md:text-3xl text-xl text-[#334075] font-Bricolage">
+                  <a href="https://www.instagram.com/dutafiabrawijaya/" target="_blank">@dutafiabrawijaya</a>
+                  <a href="https://www.instagram.com/rumahmoderasi_/" target="_blank">@rumahmoderasi_</a>
+                  <a href="https://www.instagram.com/kitamengkaji2025/" target="_blank">@kitamengkaji2025</a>
+                  <a href="https://www.instagram.com/seiken.id/" target="_blank">@seiken.id</a>
+                  <a href="https://www.instagram.com/minsight2025/" target="_blank">@minsight2025</a>
+                  <a href="https://www.instagram.com/mataprojectt/" target="_blank">@mataprojectt</a>
+                  <a href="https://www.instagram.com/mafiagfest/" target="_blank">@mafiagfest</a>
+                  <a href="https://www.instagram.com/masimpactfia/" target="_blank">@masimpactfia</a>
+                  <a href="https://www.instagram.com/masivecamp/" target="_blank">@masivecamp</a>
+                  <a href="https://www.instagram.com/mafiainstitute/" target="_blank">@mafiainstitute</a>
+                  <a href="https://www.instagram.com/mbsummit_/" target="_blank">@mbsummit_</a>
+                  <a href="https://www.instagram.com/impactt2025/" target="_blank">@impactt2025</a>
+                  <a href="https://www.instagram.com/marinovation_/" target="_blank">@marinovation_</a>
                 </div>
               </div>
-              <div className="flex flex-col md:gap-5 gap-3">
+              {/* <div className="flex flex-col md:gap-5 gap-3">
                 <h1 className="font-Bricolage font-extrabold text-[#334075] md:text-5xl text-3xl">
                   partnership:
                 </h1>
@@ -127,13 +127,13 @@ export default function ConnectUs() {
                   <li>Athome Space</li>
                   <li>Selfroom Studio</li>
                 </div>
-              </div>
+              </div> */}
               <div className="flex flex-col md:gap-5 gap-3">
                 <h1 className="font-Bricolage font-extrabold text-[#334075] md:text-5xl text-3xl">
                   sponsorship:
                 </h1>
                 <div className="flex-col font-semibold md:text-3xl text-xl text-[#334075] font-Bricolage">
-                  <li>Mation Canals (MaFIA Integration Canals)</li>
+                  <a href="https://bit.ly/ProposalSponsorMationCanals" target="_blank">Mation Canals (MaFIA Integration Canals)</a>
                 </div>
               </div>
             </div>
