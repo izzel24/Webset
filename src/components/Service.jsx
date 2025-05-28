@@ -4,10 +4,9 @@ import "../service.css"
 export default function Service({ title, subtitle1, subtitle2 }) {
 
   return (
-    <div className='min-h-[200vh] relative bg-[#98A869] '>
-
-      <div className="sticky top-0 h-screen w-full flex flex-col justify-center items-center">
-        <div className='relative z-99 flex w-full flex-col justify-center items-center px-2'>
+    <div className='h-[200vh] relative bg-[#98A869]'>
+      <div className="sticky top-0 h-screen w-full overflow-hidden">
+        <div className='relative z-10 flex w-full h-full flex-col justify-center items-center px-2'>
           <svg width="100%" className='lg:h-[140px] md:h-[118px] sm:h-[100px] h-[100px]'>
             <defs>
               <filter id="dropshadow">
@@ -30,7 +29,7 @@ export default function Service({ title, subtitle1, subtitle2 }) {
                 <tspan>{title}</tspan>
               </text>
           </svg>
-          <svg width="100%" height={"60"} className='md:h-[60px] h-35px relative z-99'>
+          <svg width="100%" height={"60"} className='md:h-[60px] h-35px relative z-10'>
             <defs>
               <filter id="dropshadow">
                 <feDropShadow dx="2" dy="2.5" stdDeviation="0" flood-color="black" flood-opacity="1" />
@@ -52,7 +51,7 @@ export default function Service({ title, subtitle1, subtitle2 }) {
                 <a className='svg-hover cursor-pointer relative z-99' href='https://linktr.ee/AdvokesmaBEMFIAUB' target='_blank'>{subtitle1}</a>
               </text>
           </svg>
-          <svg   width="100%" className='md:h-[60px] h-[35px] relative z-99'>
+          <svg width="100%" className='md:h-[60px] h-[35px] relative z-10'>
             <defs>
               <filter id="dropshadow">
                 <feDropShadow dx="2" dy="2.5" stdDeviation="0" flood-color="black" flood-opacity="1" />
@@ -75,13 +74,15 @@ export default function Service({ title, subtitle1, subtitle2 }) {
               </text>
           </svg>
         </div>
-        <img src={pinkBottom} alt="" className="absolute bottom-0 w-full will-change-transform z-0" />
+        <div className="absolute bottom-0 left-0 right-0 w-full">
+          <img 
+            src={pinkBottom} 
+            alt="" 
+            className="w-full object-cover transform-gpu" 
+          />
+        </div>
       </div>
-        
-      
-
-      {/* {/* <div className="spacer1 h-screen bg-transparent relative"></div> */}
-      <div className="spacer2 h-screen bg-transparent relative z-50 pointer-events-none"></div>
+      <div className="h-screen bg-transparent relative z-0"></div>
     </div>
   )
 }
