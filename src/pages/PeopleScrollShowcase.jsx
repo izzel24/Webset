@@ -203,25 +203,25 @@ const groupedImages = [
   ],
   [
     {
-      src: person21,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501978/person21_g8ybeo.png",
       name: "Nurfathur Rohman",
       role: "Menteri Agama",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person22,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501970/person22_e9ggjd.png",
       name: "Elizabeth Pascalia",
       role: "Wakil Menteri Agama",
       major: "Administrasi Publik 2022",
     },
     {
-      src: person23,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501995/person23_u0m7rd.png",
       name: "Tyo Hydro",
       role: "Direktorat Jenderal Kajian dan Toleransi",
       major: "Administrasi Bisnis 2023",
     },
     {
-      src: person24,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501970/person24_vipbxc.png",
       name: "Khaira Ajeng",
       role: "Direktorat Jenderal Kerukunan Umat Beragama",
       major: "Administrasi Publik 2023",
@@ -229,25 +229,25 @@ const groupedImages = [
   ],
   [
     {
-      src: person25,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501998/person25_sjhjjs.png",
       name: "Iqbal Noeryazid",
       role: "Menteri Advokasi dan Kesejahteraan Mahasiswa",
       major: "Ilmu Perpustakaan 2022",
     },
     {
-      src: person26,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501990/person26_vvjyg1.png",
       name: "Aissyah Rekso",
       role: "Wakil Menteri Advokasi dan Kesejahteraan Mahasiswa",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person27,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501971/person27_jfie5j.png",
       name: "Alfina Putri",
       role: "Direktorat Jenderal Advokasi",
       major: "Administrasi Publik 2023",
     },
     {
-      src: person28,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748502007/person28_ayv9vk.png",
       name: "Naomy Mutiara",
       role: "Direktorat Jenderal Kesejahteraan Mahasiswa",
       major: "Perpajakan 2023",
@@ -255,25 +255,25 @@ const groupedImages = [
   ],
   [
     {
-      src: person29,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748502007/person29_ac3uad.png",
       name: "Raden Wahyu",
       role: "Menteri Kajian dan Aksi Strategis",
       major: "Perpajakan 2022",
     },
     {
-      src: person30,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501971/person30_dorm9k.png",
       name: "Dava Nuprehan",
       role: "Wakil Menteri Kajian dan Aksi Strategis",
       major: "Administrasi Publik 2022",
     },
     {
-      src: person31,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748502007/person31_tudcp1.png",
       name: "Eberhard Emmanuel",
       role: "Direktorat Jenderal Aksi dan Propaganda",
       major: "Perpajakan 2023",
     },
     {
-      src: person32,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748502008/person32_nowgoe.png",
       name: "Haidar Tsaqib",
       role: "Direktorat Jenderal Kajian dan Pencerdasan Isu",
       major: "Administrasi Publik 2023",
@@ -281,25 +281,25 @@ const groupedImages = [
   ],
   [
     {
-      src: person33,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501972/person33_fgiiop.png",
       name: "Putri Maharani",
       role: "Menteri Pemberdayaan Mahasiswa",
       major: "Administrasi Publik 2022",
     },
     {
-      src: person34,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501973/person34_gwqqpi.png",
       name: "Rifki Adha",
       role: "Wakil Menteri Pemberdayaan Mahasiswa",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person35,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501963/person35_url6xo.png",
       name: "Lazuardi Adzikri",
       role: "Direktorat Jenderal Pengembangan Sumberdaya Mahasiswa",
       major: "Administrasi Publik 2023",
     },
     {
-      src: person36,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501963/person36_ibqlgn.png",
       name: "Saliha Ayesha",
       role: "Direktorat Jenderal Seni Budaya",
       major: "Administrasi Bisnis 2023",
@@ -307,25 +307,25 @@ const groupedImages = [
   ],
   [
     {
-      src: person37,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501963/person37_feeljc.png",
       name: "Riza Putra",
       role: "Menteri Sosial Masyarakat",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person38,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501964/person38_akkurw.png",
       name: "Daffa Anggita",
       role: "Wakil Menteri Sosial Masyarakat",
       major: "Administrasi Publik 2022",
     },
     {
-      src: person39,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501966/person39_sgjb7j.png",
       name: "Gracia Melvina",
       role: "Direktorat Jenderal Pemberdayaan Masyarakat",
       major: "Perpajakan 2023",
     },
     {
-      src: person40,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501963/person40_zfv2ri.png",
       name: "Ikhsan Maulana",
       role: "Direktorat Jenderal Lingkungan Hidup",
       major: "Administrasi Pendidikan 2023",
@@ -333,7 +333,7 @@ const groupedImages = [
   ],
   [
     {
-      src: person41,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501990/person41_k9djyo.png",
       name: "Caroline Janice",
       role: "Menteri Dalam dan Luar Negeri",
       major: "Administrasi Publik 2022",
