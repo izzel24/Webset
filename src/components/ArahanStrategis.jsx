@@ -59,10 +59,11 @@ export default function ArahanStrategis() {
             </g>
           </svg>
 
-          <span className="font-Bricolage md:text-lg text-sm text-white">
-            Mengelola keuangan kabinet secara transparan dan akuntabel,
-            memastikan alokasi anggaran sesuai prioritas, serta menyusun dan
-            mengevaluasi alur administrasi keuangan secara efisien.
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
+            Bertanggung jawab atas pengelolaan agenda kabinet, koordinasi
+            administrasi antar kementerian/biro, pelaporan berkala kepada
+            presiden BEM, serta optimalisasi alur administrasi kesekretariatan
+            secara terintegrasi.
             <ul>
               <li>
                 {" "}
@@ -148,11 +149,10 @@ export default function ArahanStrategis() {
             </g>
           </svg>
 
-          <span className="font-Bricolage md:text-lg text-sm text-white">
-            Bertanggung jawab atas pengelolaan agenda kabinet, koordinasi
-            administrasi antar kementerian/biro, pelaporan berkala kepada
-            presiden BEM, serta optimalisasi alur administrasi kesekretariatan
-            secara terintegrasi.
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
+            Mengelola keuangan kabinet secara transparan dan akuntabel,
+            memastikan alokasi anggaran sesuai prioritas, serta menyusun dan
+            mengevaluasi alur administrasi keuangan secara efisien.
             <ul>
               <li>
                 {" "}
@@ -160,8 +160,7 @@ export default function ArahanStrategis() {
                 kabinet dengan transparan, akuntabel, dan sesuai dengan
                 prioritas kegiatan yang telah ditetapkan.{" "}
               </li>
-              <li>{/*  */}
-                {" "}
+              <li>
                 2. Menyediakan alur (SOP) laporan keuangan berkala untuk kabinet
                 dan memastikan alokasi dana tepat sasaran untuk mendukung
                 program kerja setiap kementerian & biro.{" "}
@@ -262,10 +261,10 @@ export default function ArahanStrategis() {
               </text>
             </g>
           </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
             Memastikan seleksi, pengawasan, peningkatan kapasitas aparatur,
             serta pengelolaan organisasi dan program kerja melalui KPI, OKR, dan
-            SOP yang terintegrasi..
+            SOP yang terintegrasi.
             <ul>
               <li>
                 {" "}
@@ -370,7 +369,7 @@ export default function ArahanStrategis() {
               </text>
             </g>
           </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
             Menjaga konsistensi identitas visual kabinet, mendukung komunikasi
             melalui desain informatif, dan menyediakan panduan serta SOP
             kebutuhan desain kementerian/biro.
@@ -456,7 +455,7 @@ export default function ArahanStrategis() {
               </text>
             </g>
           </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
             Mengembangkan kemitraan strategis, menyediakan kanal integrasi
             sponsorship, dan mendukung pendanaan program kementerian/biro.
             <ul>
@@ -559,7 +558,7 @@ export default function ArahanStrategis() {
               </text>
             </g>
           </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
             Memberdayakan mentor MBKM, mengawal isu kesehatan mental, serta
             bantuan keuangan mahasiswa FIA.
             <ul>
@@ -638,18 +637,23 @@ export default function ArahanStrategis() {
               </text>
             </g>
           </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
-            Memberdayakan unit keagamaan, meningkatkan toleransi, serta mengawal isu keagamaan, keberagaman, dan kebangsaan di FIA.
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
+            Memberdayakan unit keagamaan, meningkatkan toleransi, serta mengawal
+            isu keagamaan, keberagaman, dan kebangsaan di FIA.
             <ul>
               <li>
                 {" "}
-                1. Menghimpun, memberdayakan, serta memfasilitasi unit-unit keagamaan di Lingkungan FIA.
+                1. Menghimpun, memberdayakan, serta memfasilitasi unit-unit
+                keagamaan di Lingkungan FIA.
               </li>
               <li>
                 {" "}
-                2. Meningkatkan kesadaran beragama dan toleransi antar umat beragama di Lingkungan FIA.
+                2. Meningkatkan kesadaran beragama dan toleransi antar umat
+                beragama di Lingkungan FIA.
               </li>
-              <li>3. Mengawal isu-isu keagamaan, keberagaman, dan kebangsaan.</li>
+              <li>
+                3. Mengawal isu-isu keagamaan, keberagaman, dan kebangsaan.
+              </li>
             </ul>
           </span>
         </div>
@@ -709,7 +713,7 @@ export default function ArahanStrategis() {
               </text>
             </g>
           </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
             Meningkatkan kesadaran isu strategis melalui kajian rutin,
             propaganda, dan aksi sebagai pressure group dan social control.
             <ul>
@@ -786,7 +790,7 @@ export default function ArahanStrategis() {
               </text>
             </g>
           </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
             Mengelola minat bakat mahasiswa, memfasilitasi pengembangan soft
             skill/hard skill, dan mendukung peran Duta FIA.
             <ul>
@@ -860,7 +864,7 @@ export default function ArahanStrategis() {
               </text>
             </g>
           </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
             Mengadvokasi isu sosial dan lingkungan, mendukung upaya green
             campus, mengawal isu disabilitas dan inklusifitas, serta
             melaksanakan pengabdian berbasis keilmuan administrasi.
@@ -949,7 +953,7 @@ export default function ArahanStrategis() {
               </text>
             </g>
           </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
             Memberdayakan kemampuan riset, prestatif, dan kewirausahaan
             Mahasiswa FIA dalam mempersiapkan partisipasi dalam program PKM,
             PMW, dan Mawapres yang menjalin kerja sama dengan RSC dan SEC.
@@ -1039,7 +1043,7 @@ export default function ArahanStrategis() {
               </text>
             </g>
           </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
             Menjadi garda terdepan dalam diplomasi dan jaringan kerja sama
             berkelanjutan, mengharmonisasi hubungan dengan LKM/LOF, serta
             memfasilitasi forum angkatan bersama himpunan prodi.
@@ -1124,7 +1128,7 @@ export default function ArahanStrategis() {
               </text>
             </g>
           </svg>
-          <span className="font-Bricolage md:text-lg text-sm text-white">
+          <span className="font-Bricolage md:text-lg text-sm text-[#E5D5DB]">
             Mengawal kesetaraan gender, pencegahan kekerasan seksual, serta
             memberdayakan perempuan melalui kelas emansipasi dan pembentukan
             Satgas PPKS.
