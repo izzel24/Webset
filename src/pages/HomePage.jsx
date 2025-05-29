@@ -116,7 +116,7 @@ export default function HomePage() {
                 cards={[
                   {
                     title: "MaFIA Inclusive Bootcamp (Massive Camp)",
-                    body: "Kementerian Kajian & Aksi Strategis",
+                    body: "Kementerian Advokasi & Kesejahteraan Mahasiswa",
                     color: "#FDC2D6",
                     url: "MaFIA-Inclusive-Bootcamp"
                   },
