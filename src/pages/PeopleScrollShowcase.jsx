@@ -72,7 +72,7 @@ import person52 from "../assets/person52.png";
 const groupedImages = [
   [
     {
-      src: person1,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501976/person1_jix2jd.png",
       name: "Fitra Abdillah",
       role: "Presiden",
       major: "Administrasi Publik 2022",
