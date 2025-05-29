@@ -35,38 +35,38 @@ import people14 from "../assets/people14.png";
 // import person18 from "../assets/person18.png";
 // import person19 from "../assets/person19.png";
 // import person20 from "../assets/person20.png";
-import person21 from "../assets/person21.png";
-import person22 from "../assets/person22.png";
-import person23 from "../assets/person23.png";
-import person24 from "../assets/person24.png";
-import person25 from "../assets/person25.png";
-import person26 from "../assets/person26.png";
-import person27 from "../assets/person27.png";
-import person28 from "../assets/person28.png";
-import person29 from "../assets/person29.png";
-import person30 from "../assets/person30.png";
-import person31 from "../assets/person31.png";
-import person32 from "../assets/person32.png";
-import person33 from "../assets/person33.png";
-import person34 from "../assets/person34.png";
-import person35 from "../assets/person35.png";
-import person36 from "../assets/person36.png";
-import person37 from "../assets/person37.png";
-import person38 from "../assets/person38.png";
-import person39 from "../assets/person39.png";
-import person40 from "../assets/person40.png";
-import person41 from "../assets/person41.png";
-import person42 from "../assets/person42.png";
-import person43 from "../assets/person43.png";
-import person44 from "../assets/person44.png";
-import person45 from "../assets/person45.png";
-import person46 from "../assets/person46.png";
-import person47 from "../assets/person47.png";
-import person48 from "../assets/person48.png";
-import person49 from "../assets/person49.png";
-import person50 from "../assets/person50.png";
-import person51 from "../assets/person51.png";
-import person52 from "../assets/person52.png";
+// import person21 from "../assets/person21.png";
+// import person22 from "../assets/person22.png";
+// import person23 from "../assets/person23.png";
+// import person24 from "../assets/person24.png";
+// import person25 from "../assets/person25.png";
+// import person26 from "../assets/person26.png";
+// import person27 from "../assets/person27.png";
+// import person28 from "../assets/person28.png";
+// import person29 from "../assets/person29.png";
+// import person30 from "../assets/person30.png";
+// import person31 from "../assets/person31.png";
+// import person32 from "../assets/person32.png";
+// import person33 from "../assets/person33.png";
+// import person34 from "../assets/person34.png";
+// import person35 from "../assets/person35.png";
+// import person36 from "../assets/person36.png";
+// import person37 from "../assets/person37.png";
+// import person38 from "../assets/person38.png";
+// import person39 from "../assets/person39.png";
+// import person40 from "../assets/person40.png";
+// import person41 from "../assets/person41.png";
+// import person42 from "../assets/person42.png";
+// import person43 from "../assets/person43.png";
+// import person44 from "../assets/person44.png";
+// import person45 from "../assets/person45.png";
+// import person46 from "../assets/person46.png";
+// import person47 from "../assets/person47.png";
+// import person48 from "../assets/person48.png";
+// import person49 from "../assets/person49.png";
+// import person50 from "../assets/person50.png";
+// import person51 from "../assets/person51.png";
+// import person52 from "../assets/person52.png";
 
 const groupedImages = [
   [
@@ -339,19 +339,19 @@ const groupedImages = [
       major: "Administrasi Publik 2022",
     },
     {
-      src: person42,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501963/person42_msifbq.png",
       name: "Rama Narendra",
       role: "Wakil Menteri Dalam dan Luar Negeri",
       major: "Administrasi Publik 2022",
     },
     {
-      src: person43,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501963/person43_vhqppf.png",
       name: "Rania Azzahra",
       role: "Direktorat Jenderal Dalam Negeri",
       major: "Administrasi Bisnis 2023",
     },
     {
-      src: person44,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501966/person44_wz2a9n.png",
       name: "Ebenhaezer Yobel",
       role: "Direktorat Jenderal Luar Negeri",
       major: "Administrasi Bisnis 2023",
@@ -359,25 +359,25 @@ const groupedImages = [
   ],
   [
     {
-      src: person45,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501976/person45_uxug0r.png",
       name: "Michael",
       role: "Menteri Riset dan Inovasi Karya",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person46,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501966/person46_c220oy.png",
       name: "Ni Putu Febi",
       role: "Wakil Menteri Riset dan Inovasi Karya",
       major: "Administrasi Publik 2022",
     },
     {
-      src: person47,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501976/person47_pvpbwt.png",
       name: "Tariza Putri",
       role: "Direktorat Jenderal Riset dan Prestasi",
       major: "Administrasi Bisnis 2023",
     },
     {
-      src: person48,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501969/person48_y0zb9i.png",
       name: "Bellivia Atali",
       role: "Direktorat Jenderal Inovasi dan Karya",
       major: "Administrasi Publik 2023",
@@ -385,25 +385,25 @@ const groupedImages = [
   ],
   [
     {
-      src: person49,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501990/person49_rsavdk.png",
       name: "Athaya Raissa",
       role: "Menteri Pengarusutamaan Gender",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person50,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501990/person50_bbepqk.png",
       name: "Nessa Athalia",
       role: "Wakil Menteri Pengarusutamaan Gender",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person51,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501990/person51_gw8jgn.png",
       name: "Yasmina Putri",
       role: "Direktorat Jenderal Kesetaraan Bersama",
       major: "Administrasi Bisnis 2023",
     },
     {
-      src: person52,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501980/person52_jjfcnt.png",
       name: "Queen Bilqis",
       role: "Direktorat Jenderal Perlindungan dan Pendampingan",
       major: "Administrasi Publik 2023",

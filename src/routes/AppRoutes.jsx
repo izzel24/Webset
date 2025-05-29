@@ -81,7 +81,7 @@ export default function AppRoutes() {
         }`}
         style={{ transitionProperty: 'opacity' }}
       >
-        <img src={`${loadingf}?t=${gifKey}`} alt="Loading..." className="w-full h-full " />
+        <img src={`https://res.cloudinary.com/diofvdwig/image/upload/v1748504409/LOADING_SCREEN_HOMEPAGE_1_dt4fpe.gif?t=${gifKey}`} alt="Loading..." className="w-full h-full " />
       </div>
     )}
 
