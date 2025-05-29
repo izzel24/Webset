@@ -16,26 +16,25 @@ import people12 from "../assets/people12.png";
 import people13 from "../assets/people13.png";
 import people14 from "../assets/people14.png";
 
-import person1 from "../assets/person1.png";
-import person2 from "../assets/person2.png";
-import person3 from "../assets/person3.png";
-import person4 from "../assets/person4.png";
-import person5 from "../assets/person5.png";
-import person6 from "../assets/person6.png";
-import person7 from "../assets/person7.png";
-import person8 from "../assets/person8.png";
-import person9 from "../assets/person9.png";
-import person10 from "../assets/person10.png";
-import person11 from "../assets/person11.png";
-import person12 from "../assets/person12.png";
-import person13 from "../assets/person13.png";
-import person14 from "../assets/person14.png";
-import person15 from "../assets/person15.png";
-import person16 from "../assets/person16.png";
-import person17 from "../assets/person17.png";
-import person18 from "../assets/person18.png";
-import person19 from "../assets/person19.png";
-import person20 from "../assets/person20.png";
+
+// import person3 from "../assets/person3.png";
+// import person4 from "../assets/person4.png";
+// import person5 from "../assets/person5.png";
+// import person6 from "../assets/person6.png";
+// import person7 from "../assets/person7.png";
+// import person8 from "../assets/person8.png";
+// import person9 from "../assets/person9.png";
+// import person10 from "../assets/person10.png";
+// import person11 from "../assets/person11.png";
+// import person12 from "../assets/person12.png";
+// import person13 from "../assets/person13.png";
+// import person14 from "../assets/person14.png";
+// import person15 from "../assets/person15.png";
+// import person16 from "../assets/person16.png";
+// import person17 from "../assets/person17.png";
+// import person18 from "../assets/person18.png";
+// import person19 from "../assets/person19.png";
+// import person20 from "../assets/person20.png";
 import person21 from "../assets/person21.png";
 import person22 from "../assets/person22.png";
 import person23 from "../assets/person23.png";
@@ -78,7 +77,7 @@ const groupedImages = [
       major: "Administrasi Publik 2022",
     },
     {
-      src: person2,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501976/person2_x2x8ct.png",
       name: "Rayhan Fayza",
       role: "Wakil Presiden",
       major: "Administrasi Bisnis 2022",
@@ -86,19 +85,19 @@ const groupedImages = [
   ],
   [
     {
-      src: person3,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501975/person3_gfxxcl.png",
       name: "Syadita Geroldin",
       role: "Sekretaris Kabinet",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person4,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501977/person4_yfarb5.png",
       name: "Marcellina Antia",
       role: "Deputi Kesekretariatan Eksternal",
       major: "Administrasi Bisnis 2023",
     },
     {
-      src: person5,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501974/person5_qqrswd.png",
       name: "Syilvawan Maulana",
       role: "Deputi Kesekretariatan Internal",
       major: "Administrasi Bisnis 2023",
@@ -106,19 +105,19 @@ const groupedImages = [
   ],
   [
     {
-      src: person6,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501974/person6_evrev5.png",
       name: "Desika Putri",
       role: "Bendahara Kabinet",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person7,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501979/person7_kkl4x4.png",
       name: "Muhammad Handoko",
       role: "Deputi Keuangan Eksternal",
       major: "Perpajakan 2023",
     },
     {
-      src: person8,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501974/person8_adid3z.png",
       name: "Khansa Afifah",
       role: "Deputi Keuangan Internal",
       major: "Administrasi Bisnis 2023",
@@ -126,25 +125,25 @@ const groupedImages = [
   ],
   [
     {
-      src: person9,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501978/person9_difeql.png",
       name: "Henri Vannes",
       role: "Kepala Satuan Pendayagunaan Aparatur dan Reformasi Organisasi",
       major: "Administrasi Publik 2022",
     },
     {
-      src: person10,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501980/person10_yatvoq.png",
       name: "Ibni Miftah",
       role: "Wakil Kepala Satuan Pendayagunaan Aparatur dan Reformasi Organisasi",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person11,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501996/person11_atubt9.png",
       name: "Nada Nisrina",
       role: "Kepala Divisi Pengawasan dan Peningkatan Kapasitas Aparatur",
       major: "Administrasi Bisnis 2023",
     },
     {
-      src: person12,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501992/person12_wl0vzn.png",
       name: "Azzahra Karimah",
       role: "Kepala Divisi Jaminan Mutu dan Reformasi Organisasi",
       major: "Administrasi Publik 2023",
@@ -152,25 +151,25 @@ const groupedImages = [
   ],
   [
     {
-      src: person13,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501968/person13_wgdcc8.png",
       name: "Davina Nasywa",
       role: "Kepala Biro Desain Komunikasi Visual",
       major: "Administrasi Publik 2022",
     },
     {
-      src: person14,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501994/person14_fqmzki.png",
       name: "Daniel Rudolf",
       role: "Wakil Kepala Biro Desain Komunikasi Visual",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person15,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501990/person15_vhqkr8.png",
       name: "Maulana Abdan",
       role: "Kepala Bagian Visual Kreatif",
       major: "Administrasi Publik 2023",
     },
     {
-      src: person16,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501995/person16_hroccq.png",
       name: "Syafiq Sofiyullah",
       role: "Kepala Bagian Konten Digital",
       major: "Administrasi Bisnis 2023",
@@ -178,25 +177,25 @@ const groupedImages = [
   ],
   [
     {
-      src: person17,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501968/person17_qvalih.png",
       name: "Daffa Novian",
       role: "Kepala Biro Ekonomi Kreatif",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person18,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501968/person18_nzjr18.png",
       name: "Affina Mustika",
       role: "Wakil Kepala Biro Ekonomi Kreatif",
       major: "Administrasi Bisnis 2022",
     },
     {
-      src: person19,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501995/person19_jwcaw6.png",
       name: "Khairi Yahya",
       role: "Kepala Bagian Pengembangan Bisnis dan Produk Kreatif",
       major: "Administrasi Bisnis 2023",
     },
     {
-      src: person20,
+      src: "https://res.cloudinary.com/diofvdwig/image/upload/v1748501996/person20_hontmz.png",
       name: "Masayu Diva",
       role: "Kepala Bagian Kemitraan dan Pemasaran Digital",
       major: "Administrasi Publik 2023",
