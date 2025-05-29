@@ -43,6 +43,17 @@ export default function AppRoutes() {
   const [fadeOut, setFadeOut] = useState(false)
   const [hasVisited, setHasVisited] = useState(false)
   const [gifKey, setGifKey] = useState(Date.now())
+   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+    useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
    useEffect(() => {
     const isFirstVisit = (location.pathname === '/' || location.pathname === '/home') && !hasVisited
@@ -62,7 +73,7 @@ export default function AppRoutes() {
         }, 500)
 
         return () => clearTimeout(fadeTimer)
-      }, 3500)
+      }, 3750)
 
       return () => clearTimeout(timer)
     } else {
@@ -71,6 +82,10 @@ export default function AppRoutes() {
   }, [location.pathname, hasVisited])
 
       
+   const gifUrl = isMobile
+    ? "https://res.cloudinary.com/diofvdwig/image/upload/v1748509074/LOADING_SCREEN_HOMEPAGE_MOBILE_1_pt6kbu.gif"
+    : "https://res.cloudinary.com/diofvdwig/image/upload/v1748504409/LOADING_SCREEN_HOMEPAGE_1_dt4fpe.gif";
+
 
   return (
     <>
@@ -81,7 +96,7 @@ export default function AppRoutes() {
         }`}
         style={{ transitionProperty: 'opacity' }}
       >
-        <img src={`https://res.cloudinary.com/diofvdwig/image/upload/v1748504409/LOADING_SCREEN_HOMEPAGE_1_dt4fpe.gif?t=${gifKey}`} alt="Loading..." className="w-full h-full " />
+        <img src={`${gifUrl}?t=${gifKey}`} alt="Loading..." className="w-full h-full " />
       </div>
     )}
 
