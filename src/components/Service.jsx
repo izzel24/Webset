@@ -4,8 +4,8 @@ import "../service.css"
 export default function Service({ title, subtitle1, subtitle2 }) {
 
   return (
-    <div className='h-[200vh] relative bg-[#98A869] z-[1]'>
-      <div className="sticky top-0 h-screen w-full overflow-hidden">
+    <div className='md:h-[120vh] h-[100vh] relative bg-[#98A869] z-[1]'>
+      <div className=" top-0 h-screen w-full overflow-hidden">
         <div className='relative z-[2] flex w-full h-full flex-col justify-center items-center px-2'>
           <svg width="100%" className='lg:h-[140px] md:h-[118px] sm:h-[100px] h-[100px]'>
             <defs>
@@ -86,7 +86,7 @@ export default function Service({ title, subtitle1, subtitle2 }) {
           />
         </div>
       </div>
-      <div className="h-[100vh] bg-transparent"></div>
+      {/* <div className="h-[100vh] bg-transparent"></div> */}
     </div>
   )
 }
